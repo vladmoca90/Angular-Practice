@@ -1,10 +1,100 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en-gb">
 <head>
-    <title></title>
-	<meta charset="utf-8" />
-</head>
-<body>
 
+    <title>Formular</title>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js"></script>
+
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css" />
+
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <link rel="stylesheet" href="content/formular.css" type="text/css" />
+
+    <script type="text/javascript" src="scripts/main.js"></script>
+
+</head>
+<body ng-app="formularApp">
+    <div id="formular-container" ng-controller="formularController">
+        <form role="form" class="form-horizontal" id="form-content" ng-show="show">
+            <div class="form-group">
+                <label for="FirstName" class="main-details">First Name:</label>
+                <input type="text" class="form-control" ng-model="user.firstName" required />
+            </div>
+            <div class="form-group">
+                <label for="LastName" class="main-details">Last Name:</label>
+                <input type="text" class="form-control" ng-model="user.lastName" required />
+            </div>
+            <div class="form-group" id="date-of-birth">
+                <label for="dateOfBirth">Date of Birth:</label>
+                <input type="date" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="myEmail" class="main-details">Email:</label>
+                <input type="email" class="form-control" ng-model="user.myEmail" required />
+            </div>
+            <div class="form-group">
+                <label for="myPassword" class="main-details">Password:</label>
+                <input type="password" class="form-control" ng-model="user.myPassword" required />
+            </div>
+            <div class="form-group">
+                <label for="telephone" class="main-details">Telephone:</label>
+                <input type="tel" class="form-control" ng-model="user.myTelephone" required />
+            </div>
+            <div class="form-group">
+                <label for="URL" class="main-details">URL:</label>
+                <input type="url" class="form-control" ng-model="user.myURL" required />
+            </div>
+            <div class="form-group">
+                <label for="checkboxButtons">Select languages:</label> <br />
+                French: <input type="checkbox" ng-model="checkboxSection1" value="chooseCheckboxOption1" /> <br />
+                Spanish: <input type="checkbox" ng-model="checkboxSection2" value="chooseCheckboxOption2" /> <br />
+                German: <input type="checkbox" ng-model="checkboxSection3" value="chooseCheckboxOption3" /> <br />
+                Chinese: <input type="checkbox" ng-model="checkboxSection4" value="chooseCheckboxOption4" />
+            </div>
+            <div class="form-group">
+                <label for="radioButtons">Current status:</label> <br />
+                Employed: <input type="radio" ng-model="radioSection" name="chooseRadioOption" /> <br />
+                Unemployed: <input type="radio" ng-model="radioSection" name="chooseRadioOption" /> <br />
+                Retired: <input type="radio" ng-model="radioSection" name="chooseRadioOption" /> <br />
+                Student: <input type="radio" ng-model="radioSection" name="chooseRadioOption" />
+            </div>
+            <div class="form-group">
+                <label for="choose">Choose your area:</label>
+                <select>
+                    <option ng-repeat="region in Regions" value="{{region.Id}}" ng-selected="{{ region.Selected == true }}">
+                        {{region.Name}}
+                    </option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="description" class="main-details">Description:</label>
+                <textarea rows="10" class="form-control" ng-model="user.descriptionSection" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="formularPicture">Upload your picture:</label>
+                <input type="file" name="picture" />
+            </div>
+            <div class="form-group" id="buttons">
+                <input type="submit" name="Submit" value="Submit" id="submit-button" />
+                <input type="reset" name="Reset" value="Reset" id="reset-button" />
+            </div>
+        </form>
+        <button ng-click="formularShow()" type="button" class="btn btn-success show-hide-toggle pull-left">Show</button>
+        <button ng-click="formularHide()" type="button" class="btn btn-danger show-hide-toggle pull-left">Hide</button>
+        <button ng-click="formularToggle()" type="button" class="btn btn-info show-hide-toggle pull-left">Toggle</button>
+    </div>
 </body>
 </html>
+
