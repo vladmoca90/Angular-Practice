@@ -1,6 +1,6 @@
-﻿var app = angular.module("formularApp", []);
+﻿var app = angular.module("formApp", []);
 
-app.controller("formularController", function ($scope) {
+app.controller("formController", function ($scope) {
 
     $scope.user = {
         firstName: "John",
@@ -50,15 +50,15 @@ app.controller("formularController", function ($scope) {
 
     $scope.show = true;
 
-    $scope.formularShow = function formularShow() {
+    $scope.formShow = function formShow() {
         $scope.show = true;
     }
 
-    $scope.formularHide = function formularHide() {
+    $scope.formHide = function formHide() {
         $scope.show = false;
     }
 
-    $scope.formularToggle = function formularToggle() {
+    $scope.formToggle = function formToggle() {
         $scope.show = !$scope.show;
     }
 
