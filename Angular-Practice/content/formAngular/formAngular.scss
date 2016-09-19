@@ -1,2 +1,38 @@
-﻿body {
+﻿$max-width: 100%;
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+#form-container {
+    width: $max-width;
+    max-width: 500px;
+    margin: 3% auto 3%;
+    border: 1px solid #000;
+    background: #F5F5F5;
+}
+#form-content {
+    padding-top: 2%;
+    div {
+        width: $max-width - 15% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+ }
+.main-details,
+#buttons #submit-button {
+    float: left;
+}
+#buttons {
+    margin-top: 7%;
+}
+.required-text,
+#buttons #reset-button {
+    float: right;
+}
+#date-of-birth input {
+    width: $max-width - 62% !important;
+}
+.show-hide-toggle {
+    margin: 2% 0% 2% 16%;
 }
