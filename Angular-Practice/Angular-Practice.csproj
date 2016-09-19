@@ -100,6 +100,12 @@
     <Content Include="content\airlinesAngularRoute\airlinesAngularRoute.min.css">
       <DependentUpon>airlinesAngularRoute.css</DependentUpon>
     </Content>
+    <Content Include="content\studentTableAngular\studentTableAngular.css">
+      <DependentUpon>studentTableAngular.scss</DependentUpon>
+    </Content>
+    <Content Include="content\studentTableAngular\studentTableAngular.min.css">
+      <DependentUpon>studentTableAngular.css</DependentUpon>
+    </Content>
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -110,6 +116,7 @@
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
     <Content Include="content\airlinesAngularRoute\airlinesAngularRoute.scss" />
+    <Content Include="content\studentTableAngular\studentTableAngular.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -140,8 +147,10 @@
     <Content Include="scripts\airlinesAngularRoute\templates\airlineName.html" />
     <Content Include="scripts\airlinesAngularRoute\templates\error.html" />
     <Content Include="scripts\formAngular\formAngular.js" />
+    <Content Include="scripts\studentTableAngular\studentTableAngular.js" />
     <Content Include="sites\airlinesAngularRoute\airlinesAngularRoute.html" />
     <Content Include="sites\formAngular\formAngular.html" />
+    <Content Include="sites\studentTableAngular\studentTableAngular.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
