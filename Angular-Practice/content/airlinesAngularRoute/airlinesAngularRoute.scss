@@ -1,2 +1,22 @@
-﻿body {
+﻿#box {
+    width: 100%;
+    max-width: 400px;
+    margin: 1% auto;
+    color: #000000;
+    table {
+        background: #fafafa;
+        tr>td {
+            text-align: center;
+            font-size: 17px;
+            font-family: Tahoma;
+            a {
+                cursor: pointer;
+                color: #000;
+                text-decoration: none;
+            }
+        }
+    }
+}
+h3 {
+    padding: 0% 2%;
 }
