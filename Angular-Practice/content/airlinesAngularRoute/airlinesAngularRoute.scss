@@ -7,8 +7,10 @@
         background: #fafafa;
         tr>td {
             text-align: center;
-            font-size: 17px;
-            font-family: Tahoma;
+            font: {
+                size: 17px;
+                family: Tahoma;
+            }
             a {
                 cursor: pointer;
                 color: #000;
