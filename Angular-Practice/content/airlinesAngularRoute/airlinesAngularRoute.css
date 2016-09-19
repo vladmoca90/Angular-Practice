@@ -1,0 +1,19 @@
+﻿#box {
+  width: 100%;
+  max-width: 400px;
+  margin: 1% auto;
+  color: #000000; }
+  #box table {
+    background: #fafafa; }
+    #box table tr > td {
+      text-align: center;
+      font-size: 17px;
+      font-family: Tahoma; }
+      #box table tr > td a {
+        cursor: pointer;
+        color: #000;
+        text-decoration: none; }
+
+h3 {
+  padding: 0% 2%; }
+
