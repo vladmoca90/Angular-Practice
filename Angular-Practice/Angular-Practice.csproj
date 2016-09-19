@@ -94,6 +94,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\airlinesAngularRoute\airlinesAngularRoute.css">
+      <DependentUpon>airlinesAngularRoute.scss</DependentUpon>
+    </Content>
+    <Content Include="content\airlinesAngularRoute\airlinesAngularRoute.min.css">
+      <DependentUpon>airlinesAngularRoute.css</DependentUpon>
+    </Content>
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -103,6 +109,7 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <Content Include="content\airlinesAngularRoute\airlinesAngularRoute.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -119,7 +126,21 @@
     </Content>
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="scripts\airlinesAngularRoute\controllers\airlineCountryController.js" />
+    <Content Include="scripts\airlinesAngularRoute\controllers\airlineDestinationsController.js" />
+    <Content Include="scripts\airlinesAngularRoute\controllers\airlineFleetController.js" />
+    <Content Include="scripts\airlinesAngularRoute\controllers\airlineNameController.js" />
+    <Content Include="scripts\airlinesAngularRoute\controllers\errorController.js" />
+    <Content Include="scripts\airlinesAngularRoute\controllers\mainController.js" />
+    <Content Include="scripts\airlinesAngularRoute\main.js" />
+    <Content Include="scripts\airlinesAngularRoute\config.js" />
+    <Content Include="scripts\airlinesAngularRoute\templates\airlineCountry.html" />
+    <Content Include="scripts\airlinesAngularRoute\templates\airlineDestinations.html" />
+    <Content Include="scripts\airlinesAngularRoute\templates\airlineFleet.html" />
+    <Content Include="scripts\airlinesAngularRoute\templates\airlineName.html" />
+    <Content Include="scripts\airlinesAngularRoute\templates\error.html" />
     <Content Include="scripts\formAngular\formAngular.js" />
+    <Content Include="sites\airlinesAngularRoute\airlinesAngularRoute.html" />
     <Content Include="sites\formAngular\formAngular.html" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -127,7 +148,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="images\" />
+    <Folder Include="images\airlinesAngularRoute\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

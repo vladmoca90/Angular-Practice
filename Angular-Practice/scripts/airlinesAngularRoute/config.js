@@ -1,23 +1,23 @@
 ﻿function routeSetup($routeProvider) {
     $routeProvider
     .when("/airlineName", {
-        templateUrl: "scripts/templates/airlineName.html",
+        templateUrl: "templates/airlineName.html",
         controller: "airlineNameController"
     })
     .when("/airlineCountry", {
-        templateUrl: "scripts/templates/airlineCountry.html",
+        templateUrl: "templates/airlineCountry.html",
         controller: "airlineCountryController"
     })
     .when("/airlineFleet", {
-        templateUrl: "scripts/templates/airlineFleet.html",
+        templateUrl: "templates/airlineFleet.html",
         controller: "airlineFleetController"
     })
     .when("/airlineDestinations", {
-        templateUrl: "scripts/templates/airlineDestinations.html",
+        templateUrl: "templates/airlineDestinations.html",
         controller: "airlineDestinationsController"
     })
     .when("/error", {
-        templateUrl: "scripts/templates/error.html",
+        templateUrl: "templates/error.html",
         controller: "errorController"
     })
     .otherwise({
