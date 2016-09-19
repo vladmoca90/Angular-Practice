@@ -6,5 +6,9 @@
   {
     "outputFile": "content/airlinesAngularRoute/airlinesAngularRoute.css",
     "inputFile": "content/airlinesAngularRoute/airlinesAngularRoute.scss"
+  },
+  {
+    "outputFile": "content/studentTableAngular/studentTableAngular.css",
+    "inputFile": "content/studentTableAngular/studentTableAngular.scss"
   }
 ]
