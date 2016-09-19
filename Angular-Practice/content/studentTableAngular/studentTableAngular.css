@@ -1,4 +1,7 @@
-﻿mixin max-width-height {
+﻿#student-box {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  max-width: 400px;
+  max-height: 300px;
+  margin: auto; }
 
