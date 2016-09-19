@@ -2,7 +2,7 @@
 <html lang="en-gb">
 <head>
 
-    <title>Formular</title>
+    <title>form</title>
 
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
 
@@ -20,13 +20,13 @@
 
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 
-    <link rel="stylesheet" href="content/formular.css" type="text/css" />
+    <link rel="stylesheet" href="content/form.css" type="text/css" />
 
     <script type="text/javascript" src="scripts/main.js"></script>
 
 </head>
-<body ng-app="formularApp">
-    <div id="formular-container" ng-controller="formularController">
+<body ng-app="formApp">
+    <div id="form-container" ng-controller="formController">
         <form role="form" class="form-horizontal" id="form-content" ng-show="show">
             <div class="form-group">
                 <label for="FirstName" class="main-details">First Name:</label>
@@ -83,7 +83,7 @@
                 <textarea rows="10" class="form-control" ng-model="user.descriptionSection" required></textarea>
             </div>
             <div class="form-group">
-                <label for="formularPicture">Upload your picture:</label>
+                <label for="formPicture">Upload your picture:</label>
                 <input type="file" name="picture" />
             </div>
             <div class="form-group" id="buttons">
@@ -91,9 +91,9 @@
                 <input type="reset" name="Reset" value="Reset" id="reset-button" />
             </div>
         </form>
-        <button ng-click="formularShow()" type="button" class="btn btn-success show-hide-toggle pull-left">Show</button>
-        <button ng-click="formularHide()" type="button" class="btn btn-danger show-hide-toggle pull-left">Hide</button>
-        <button ng-click="formularToggle()" type="button" class="btn btn-info show-hide-toggle pull-left">Toggle</button>
+        <button ng-click="formShow()" type="button" class="btn btn-success show-hide-toggle pull-left">Show</button>
+        <button ng-click="formHide()" type="button" class="btn btn-danger show-hide-toggle pull-left">Hide</button>
+        <button ng-click="formToggle()" type="button" class="btn btn-info show-hide-toggle pull-left">Toggle</button>
     </div>
 </body>
 </html>
