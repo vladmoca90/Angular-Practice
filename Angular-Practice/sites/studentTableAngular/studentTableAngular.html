@@ -29,8 +29,11 @@
 
     <div id="student-box" ng-controller="studentController">
         <table class="table table-bordered">
-            <tr>
-                <td></td>
+            <tr ng-repeat="student in studentsList">
+                <td>{{student.studentName}}</td>
+                <td>{{student.studentCountry}}</td>
+                <td>{{student.studentAge}}</td>
+                <td>{{student.studentDegree}}</td>
             </tr>
         </table>
     </div>
