@@ -1,10 +1,54 @@
-﻿<!DOCTYPE html>
-<html>
+﻿<html lang="en-gb">
 <head>
-    <title></title>
-	<meta charset="utf-8" />
-</head>
-<body>
 
+    <title>Angular Route Airlines</title>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js"></script>
+
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css" />
+
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <link rel="stylesheet" href="content/exercise.css" type="text/css" />
+
+    <script src="scripts/controllers/mainController.js"></script>
+
+    <script src="scripts/controllers/airlineNameController.js"></script>
+
+    <script src="scripts/controllers/airlineCountryController.js"></script>
+
+    <script src="scripts/controllers/airlineFleetController.js"></script>
+
+    <script src="scripts/controllers/airlineDestinationsController.js"></script>
+
+    <script src="scripts/controllers/errorController.js"></script>
+
+    <script src="scripts/config.js"></script>
+
+    <script src="scripts/main.js"></script>
+
+</head>
+<body ng-app="myApp">
+    <div id="box" ng-controller="mainController">
+        <table class="table table-bordered">
+            <tr ng-repeat="airline in airlinesList">
+                <td><a ng-click="goToAirlineName(name)">{{airline.airlineName}}</a></td>
+                <td><a ng-click="goToAirlineCountry(country)">{{airline.airlineCountry}}</a></td>
+                <td><a ng-click="goToAirlineFleet(fleet)">{{airline.airlineFleet}}</a></td>
+                <td><a ng-click="goToAirlineDestinations(destinations)">{{airline.airlineDestinations}}</a></td>
+            </tr>
+        </table>
+    </div>
+    <div ng-view></div>
 </body>
 </html>
