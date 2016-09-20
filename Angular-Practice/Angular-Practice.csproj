@@ -106,6 +106,13 @@
     <Content Include="content\studentTableAngular\studentTableAngular.min.css">
       <DependentUpon>studentTableAngular.css</DependentUpon>
     </Content>
+    <Content Include="images\studentTableAngular\canada.png" />
+    <Content Include="images\studentTableAngular\china.png" />
+    <Content Include="images\studentTableAngular\netherlands.png" />
+    <Content Include="images\studentTableAngular\philippines.png" />
+    <Content Include="images\studentTableAngular\romania.png" />
+    <Content Include="images\studentTableAngular\russia.png" />
+    <Content Include="images\studentTableAngular\turkey.png" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
