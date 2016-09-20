@@ -31,7 +31,7 @@
         <table id="student-table" class="table table-bordered">
             <tr ng-repeat="student in studentsList">
                 <td>{{student.studentName}}</td>
-                <td>{{student.studentCountry}}</td>
+                <td><img role="img" ng-src="{{student.countryFlag}}" />{{student.studentCountry}}</td>
                 <td>{{student.studentAge}}</td>
                 <td>{{student.studentDegree}}</td>
             </tr>
