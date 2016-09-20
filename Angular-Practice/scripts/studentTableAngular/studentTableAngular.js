@@ -10,7 +10,6 @@ app.controller("studentController", function ($scope) {
         { studentName: "Katrina van Bismarck", studentCountry: "Netherlands", studentAge: "20", studentDegree: "Bsc English Literature" },
         { studentName: "Alexandru Sima", studentCountry: "Romania", studentAge: "25", studentDegree: "Bsc Medicine" },
         { studentName: "Cai Hui", studentCountry: "China", studentAge: "22", studentDegree: "Bsc Geosciences" }
-
     ];
 
 });
