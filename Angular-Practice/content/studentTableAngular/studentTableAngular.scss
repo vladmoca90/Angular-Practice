@@ -11,9 +11,10 @@
         font-size: 16px;
         font-family: Calibri;
         tr>td {
-            text-align: center;
+            text-align: left;
             img {
                 @include max-width-height;
+                float: left;
                 margin-right: 5px;
                 max-width: 48px;
                 max-height: 33px;
