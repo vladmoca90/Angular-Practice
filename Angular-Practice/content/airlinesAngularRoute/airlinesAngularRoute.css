@@ -1,8 +1,7 @@
 ﻿#box {
   width: 100%;
   max-width: 400px;
-  margin: 2% auto;
-  color: #000000; }
+  margin: 2% auto; }
   #box table {
     background: #FAFAFA; }
     #box table tr > td {
@@ -11,8 +10,11 @@
       font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
       #box table tr > td a {
         cursor: pointer;
-        color: #000000;
         text-decoration: none; }
+
+#box,
+table tr > td a {
+  color: #000000; }
 
 h3,
 h4 {
