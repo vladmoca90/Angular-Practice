@@ -15,13 +15,13 @@ $black-color: #000000;
             }
             a {
                 cursor: pointer;
-                text-decoration: none;
             }
         }
     }
 }
 #box,
-table tr>td a {
+table tr>td a,
+table tr>td a:hover {
     color: $black-color;
 }
 h3,
