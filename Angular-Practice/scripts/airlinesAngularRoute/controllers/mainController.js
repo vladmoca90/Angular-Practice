@@ -1,5 +1,7 @@
 ﻿function mainController($scope, $http, $location) {
 
+    $scope.borderedTable = "table table-bordered";
+
     $scope.airlinesList = [
         { airlineName: "LOT Polish", airlineCountry: "Poland", airlineFleet: "45", airlineDestinations: "60" },
         { airlineName: "Brussels Airlines", airlineCountry: "Belgium", airlineFleet: "50", airlineDestinations: "76" },
