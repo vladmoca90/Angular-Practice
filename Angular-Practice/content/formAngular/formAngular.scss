@@ -34,6 +34,9 @@ input[type="date"],
 input[type="tel"] {
     width: $max-width - 62% !important;
 }
+select {
+    width: $max-width - 50% !important;
+}
 .show-hide-toggle {
     margin: 2% 0% 2% 16%;
 }

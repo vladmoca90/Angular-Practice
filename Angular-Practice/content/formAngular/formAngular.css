@@ -30,6 +30,9 @@ input[type="date"],
 input[type="tel"] {
   width: 38% !important; }
 
+select {
+  width: 50% !important; }
+
 .show-hide-toggle {
   margin: 2% 0% 2% 16%; }
 
