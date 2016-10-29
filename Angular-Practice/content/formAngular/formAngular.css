@@ -24,10 +24,10 @@
 input[type="submit"] {
   float: left; }
 
-#buttons {
-  margin-top: 7%; }
-
 .required-text,
 input[type="reset"] {
   float: right; }
+
+#buttons {
+  margin-top: 7%; }
 

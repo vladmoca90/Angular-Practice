@@ -29,49 +29,49 @@
 
     <div id="form-container" ng-controller="formController">
         <form role="form" class="form-horizontal" id="form-content">
-            <div class="form-group">
+            <div ng-class="groupsOfFormsItems">
                 <label for="firstName" class="main-details">First Name:</label>
                 <input role="textbox" type="text" name="firstName" ng-class="formControlClass" ng-model="user.firstName" required />
             </div>
-            <div class="form-group">
+            <div ng-class="groupsOfFormsItems">
                 <label for="fastName" class="main-details">Last Name:</label>
                 <input role="textbox" type="text" name="lastName" ng-class="formControlClass" ng-model="user.lastName" required />
             </div>
-            <div class="form-group">
+            <div ng-class="groupsOfFormsItems">
                 <label for="dateOfBirth">Date of Birth:</label>
                 <input type="date" name="dateOfBirth" ng-class="formControlClass" />
             </div>
-            <div class="form-group">
+            <div ng-class="groupsOfFormsItems">
                 <label for="myEmail" class="main-details">Email:</label>
                 <input role="textbox" type="email" name="myEmail" ng-class="formControlClass" ng-model="user.myEmail" required />
             </div>
-            <div class="form-group">
+            <div ng-class="groupsOfFormsItems">
                 <label for="myPassword" class="main-details">Password:</label>
                 <input role="textbox" type="password" name="myPassword" ng-class="formControlClass" ng-model="user.myPassword" required />
             </div>
-            <div class="form-group">
+            <div ng-class="groupsOfFormsItems">
                 <label for="myTelephone" class="main-details">Telephone:</label>
                 <input role="textbox" type="tel" name="myTelephone" ng-class="formControlClass" ng-model="user.myTelephone" required />
             </div>
-            <div class="form-group">
+            <div ng-class="groupsOfFormsItems">
                 <label for="myURL" class="main-details">URL:</label>
                 <input role="textbox" type="url" name="myURL" ng-class="formControlClass" ng-model="user.myURL" required />
             </div>
-            <div class="form-group">
+            <div ng-class="groupsOfFormsItems">
                 <label for="checkboxButtons">Select languages:</label> <br />
                 French: <input type="checkbox" ng-model="checkboxSection1" value="chooseCheckboxOption1" /> <br />
                 Spanish: <input type="checkbox" ng-model="checkboxSection2" value="chooseCheckboxOption2" /> <br />
                 German: <input type="checkbox" ng-model="checkboxSection3" value="chooseCheckboxOption3" /> <br />
                 Chinese: <input type="checkbox" ng-model="checkboxSection4" value="chooseCheckboxOption4" />
             </div>
-            <div class="form-group" role="radiogroup">
+            <div role="radiogroup" ng-class="groupsOfFormsItems">
                 <label for="radioButtons">Current status:</label> <br />
                 Employed: <input role="radio" type="radio" ng-model="radioSection" name="chooseRadioOption" /> <br />
                 Unemployed: <input role="radio" type="radio" ng-model="radioSection" name="chooseRadioOption" /> <br />
                 Retired: <input role="radio" type="radio" ng-model="radioSection" name="chooseRadioOption" /> <br />
                 Student: <input role="radio" type="radio" ng-model="radioSection" name="chooseRadioOption" />
             </div>
-            <div class="form-group">
+            <div ng-class="groupsOfFormsItems">
                 <label for="chooseOption">Choose your area:</label>
                 <select ng-class="formControlClass">
                     <option role="option" ng-repeat="region in regionsOptions" value="{{region.Id}}" ng-selected="{{ region.Selected == true }}">
@@ -79,15 +79,15 @@
                     </option>
                 </select>
             </div>
-            <div class="form-group">
+            <div ng-class="groupsOfFormsItems">
                 <label for="description" class="main-details">Description:</label>
                 <textarea role="textbox" rows="10" ng-class="formControlClass" ng-model="user.descriptionSection" required></textarea>
             </div>
-            <div class="form-group">
+            <div ng-class="groupsOfFormsItems">
                 <label for="formPicture">Upload your picture:</label>
                 <input type="file" name="formPicture" />
             </div>
-            <div class="form-group" id="buttons">
+            <div ng-class="groupsOfFormsItems" id="buttons">
                 <input type="submit" name="Submit" value="Submit" />
                 <input type="reset" name="Reset" value="Reset" />
             </div>

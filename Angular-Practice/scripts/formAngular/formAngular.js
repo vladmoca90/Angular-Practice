@@ -2,6 +2,8 @@
 
 app.controller("formController", function ($scope) {
 
+    $scope.groupsOfFormsItems = "form-group";
+
     $scope.formControlClass = "form-control";
 
     $scope.user = {
