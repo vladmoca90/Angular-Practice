@@ -10,5 +10,9 @@
   {
     "outputFile": "content/studentTableAngular/studentTableAngular.css",
     "inputFile": "content/studentTableAngular/studentTableAngular.scss"
+  },
+  {
+    "outputFile": "content/formAngular/formAngularOne.css",
+    "inputFile": "content/formAngular/formAngularOne.scss"
   }
 ]
