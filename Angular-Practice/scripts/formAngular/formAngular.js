@@ -2,6 +2,8 @@
 
 app.controller("formController", function ($scope) {
 
+    $scope.formControlClass = "form-control";
+
     $scope.user = {
         firstName: "John Alexander",
         lastName: "Thompson",

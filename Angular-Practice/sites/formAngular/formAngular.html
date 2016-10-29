@@ -31,31 +31,31 @@
         <form role="form" class="form-horizontal" id="form-content" ng-show="show">
             <div class="form-group">
                 <label for="firstName" class="main-details">First Name:</label>
-                <input role="textbox" type="text" name="firstName" class="form-control" ng-model="user.firstName" required />
+                <input role="textbox" type="text" name="firstName" ng-class="formControlClass" ng-model="user.firstName" required />
             </div>
             <div class="form-group">
                 <label for="fastName" class="main-details">Last Name:</label>
-                <input role="textbox" type="text" name="lastName" class="form-control" ng-model="user.lastName" required />
+                <input role="textbox" type="text" name="lastName" ng-class="formControlClass" ng-model="user.lastName" required />
             </div>
             <div class="form-group">
                 <label for="dateOfBirth">Date of Birth:</label>
-                <input type="date" name="dateOfBirth" class="form-control" />
+                <input type="date" name="dateOfBirth" ng-class="formControlClass" />
             </div>
             <div class="form-group">
                 <label for="myEmail" class="main-details">Email:</label>
-                <input role="textbox" type="email" name="myEmail" class="form-control" ng-model="user.myEmail" required />
+                <input role="textbox" type="email" name="myEmail" ng-class="formControlClass" ng-model="user.myEmail" required />
             </div>
             <div class="form-group">
                 <label for="myPassword" class="main-details">Password:</label>
-                <input role="textbox" type="password" name="myPassword" class="form-control" ng-model="user.myPassword" required />
+                <input role="textbox" type="password" name="myPassword" ng-class="formControlClass" ng-model="user.myPassword" required />
             </div>
             <div class="form-group">
                 <label for="myTelephone" class="main-details">Telephone:</label>
-                <input role="textbox" type="tel" name="myTelephone" class="form-control" ng-model="user.myTelephone" required />
+                <input role="textbox" type="tel" name="myTelephone" ng-class="formControlClass" ng-model="user.myTelephone" required />
             </div>
             <div class="form-group">
                 <label for="myURL" class="main-details">URL:</label>
-                <input role="textbox" type="url" name="myURL" class="form-control" ng-model="user.myURL" required />
+                <input role="textbox" type="url" name="myURL" ng-class="formControlClass" ng-model="user.myURL" required />
             </div>
             <div class="form-group">
                 <label for="checkboxButtons">Select languages:</label> <br />
@@ -73,7 +73,7 @@
             </div>
             <div class="form-group">
                 <label for="chooseOption">Choose your area:</label>
-                <select class="form-control">
+                <select ng-class="formControlClass">
                     <option role="option" ng-repeat="region in regionsOptions" value="{{region.Id}}" ng-selected="{{ region.Selected == true }}">
                         {{region.Name}}
                     </option>
@@ -81,7 +81,7 @@
             </div>
             <div class="form-group">
                 <label for="description" class="main-details">Description:</label>
-                <textarea role="textbox" rows="10" class="form-control" ng-model="user.descriptionSection" required></textarea>
+                <textarea role="textbox" rows="10" ng-class="formControlClass" ng-model="user.descriptionSection" required></textarea>
             </div>
             <div class="form-group">
                 <label for="formPicture">Upload your picture:</label>
