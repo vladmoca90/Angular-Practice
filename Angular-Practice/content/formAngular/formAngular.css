@@ -27,7 +27,8 @@
 #buttons #reset-button {
   float: right; }
 
-input[type="date"] {
+input[type="date"],
+input[type="tel"] {
   width: 38% !important; }
 
 .show-hide-toggle {

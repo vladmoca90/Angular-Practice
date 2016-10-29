@@ -30,7 +30,8 @@ body {
 #buttons #reset-button {
     float: right;
 }
-input[type="date"] {
+input[type="date"],
+input[type="tel"] {
     width: $max-width - 62% !important;
 }
 .show-hide-toggle {
