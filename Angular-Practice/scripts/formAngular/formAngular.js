@@ -13,37 +13,33 @@ app.controller("formController", function ($scope) {
     };
 
     $scope.Regions = [
-       {
+        {
            Id: 1,
-           Name: "Select your area",
-           Selected: true
-       }, {
-           Id: 2,
            Name: "European Union",
            Selected: false
        }, {
-           Id: 3,
+           Id: 2,
            Name: "UK/Ireland",
-           Selected: false
+           Selected: true
        }, {
-           Id: 4,
+           Id: 3,
            Name: "United States",
            Selected: false
        }, {
-           Id: 5,
+           Id: 4,
            Name: "Canada",
            Selected: false
        }, {
-           Id: 6,
+           Id: 5,
            Name: "Australia/New Zealand",
            Selected: false
        }, {
-           Id: 7,
-           Name: "Africa",
+           Id: 6,
+           Name: "South Africa",
            Selected: false
        }, {
-           Id: 8,
-           Name: "Asia",
+           Id: 7,
+           Name: "Hong Kong",
            Selected: false
        },
     ];
