@@ -14,9 +14,10 @@
       width: 85% !important;
       margin-left: auto !important;
       margin-right: auto !important; }
-      #form-container #form-content div input[type="date"],
-      #form-container #form-content div input[type="tel"] {
+      #form-container #form-content div input[type="date"] {
         width: 38% !important; }
+      #form-container #form-content div input[type="tel"] {
+        width: 30% !important; }
       #form-container #form-content div select {
         width: 50% !important; }
 
