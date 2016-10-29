@@ -30,7 +30,7 @@ body {
 #buttons #reset-button {
     float: right;
 }
-#date-of-birth input {
+input[type="date"] {
     width: $max-width - 62% !important;
 }
 .show-hide-toggle {
