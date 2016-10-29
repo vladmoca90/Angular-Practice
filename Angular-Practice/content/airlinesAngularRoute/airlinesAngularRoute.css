@@ -1,7 +1,7 @@
 ﻿#box {
   width: 100%;
   max-width: 400px;
-  margin: 1% auto;
+  margin: 2% auto;
   color: #000000; }
   #box table {
     background: #FAFAFA; }
@@ -14,7 +14,7 @@
         color: #000000;
         text-decoration: none; }
 
-h1,
+h3,
 h4 {
   padding: 1% 5%; }
 
