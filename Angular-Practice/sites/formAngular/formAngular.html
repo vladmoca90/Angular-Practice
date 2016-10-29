@@ -30,11 +30,11 @@
     <div id="form-container" ng-controller="formController">
         <form role="form" class="form-horizontal" id="form-content" ng-show="show">
             <div class="form-group">
-                <label for="FirstName" class="main-details">First Name:</label>
+                <label for="firstName" class="main-details">First Name:</label>
                 <input type="text" class="form-control" ng-model="user.firstName" required />
             </div>
             <div class="form-group">
-                <label for="LastName" class="main-details">Last Name:</label>
+                <label for="fastName" class="main-details">Last Name:</label>
                 <input type="text" class="form-control" ng-model="user.lastName" required />
             </div>
             <div class="form-group" id="date-of-birth">
@@ -72,7 +72,7 @@
                 Student: <input type="radio" ng-model="radioSection" name="chooseRadioOption" />
             </div>
             <div class="form-group">
-                <label for="choose">Choose your area:</label>
+                <label for="chooseOption">Choose your area:</label>
                 <select>
                     <option ng-repeat="region in Regions" value="{{region.Id}}" ng-selected="{{ region.Selected == true }}">
                         {{region.Name}}
