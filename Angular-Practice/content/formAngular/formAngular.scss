@@ -20,15 +20,14 @@ body {
     }
  }
 .main-details,
-input[type="submit"],
-input[type="reset"] {
+input[type="submit"] {
     float: left;
 }
 #buttons {
     margin-top: 7%;
 }
 .required-text,
-#buttons #reset-button {
+input[type="reset"] {
     float: right;
 }
 input[type="date"],
