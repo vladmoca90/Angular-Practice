@@ -74,7 +74,7 @@
             <div class="form-group">
                 <label for="chooseOption">Choose your area:</label>
                 <select class="form-control">
-                    <option ng-repeat="region in Regions" value="{{region.Id}}" ng-selected="{{ region.Selected == true }}">
+                    <option role="option" ng-repeat="region in Regions" value="{{region.Id}}" ng-selected="{{ region.Selected == true }}">
                         {{region.Name}}
                     </option>
                 </select>
