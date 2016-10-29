@@ -7,8 +7,8 @@
     background: #FAFAFA; }
     #box table tr > td {
       text-align: center;
-      font-size: 17px;
-      font-family: Tahoma; }
+      font-size: 16px;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
       #box table tr > td a {
         cursor: pointer;
         color: #000000;
