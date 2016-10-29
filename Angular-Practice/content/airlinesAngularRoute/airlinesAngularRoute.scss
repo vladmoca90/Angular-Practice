@@ -1,10 +1,13 @@
-﻿#box {
-    width: 100%;
+﻿$max-width: 100%;
+$black-color: #000000;
+
+#box {
+    width: $max-width;
     max-width: 400px;
     margin: 1% auto;
-    color: #000000;
+    color: $black-color;
     table {
-        background: #fafafa;
+        background: #FAFAFA;
         tr>td {
             text-align: center;
             font: {
@@ -13,7 +16,7 @@
             }
             a {
                 cursor: pointer;
-                color: #000;
+                color: $black-color;
                 text-decoration: none;
             }
         }

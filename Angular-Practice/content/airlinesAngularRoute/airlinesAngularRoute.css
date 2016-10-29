@@ -4,14 +4,14 @@
   margin: 1% auto;
   color: #000000; }
   #box table {
-    background: #fafafa; }
+    background: #FAFAFA; }
     #box table tr > td {
       text-align: center;
       font-size: 17px;
       font-family: Tahoma; }
       #box table tr > td a {
         cursor: pointer;
-        color: #000;
+        color: #000000;
         text-decoration: none; }
 
 h1,
