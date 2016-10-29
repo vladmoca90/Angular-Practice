@@ -10,15 +10,15 @@ body {
     margin: 3% auto 3%;
     border: 1px solid #000;
     background: #F5F5F5;
-}
-#form-content {
-    padding-top: 2%;
-    div {
-        width: $max-width - 15% !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
+    #form-content {
+        padding-top: 2%;
+        div {
+            width: $max-width - 15% !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
     }
- }
+}
 .main-details,
 input[type="submit"] {
     float: left;

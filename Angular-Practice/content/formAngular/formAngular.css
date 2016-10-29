@@ -8,13 +8,12 @@
   margin: 3% auto 3%;
   border: 1px solid #000;
   background: #F5F5F5; }
-
-#form-content {
-  padding-top: 2%; }
-  #form-content div {
-    width: 85% !important;
-    margin-left: auto !important;
-    margin-right: auto !important; }
+  #form-container #form-content {
+    padding-top: 2%; }
+    #form-container #form-content div {
+      width: 85% !important;
+      margin-left: auto !important;
+      margin-right: auto !important; }
 
 .main-details,
 input[type="submit"] {
