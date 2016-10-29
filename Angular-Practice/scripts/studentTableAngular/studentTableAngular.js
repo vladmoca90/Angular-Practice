@@ -2,6 +2,8 @@
 
 app.controller("studentController", function ($scope) {
 
+    $scope.borderedTable = "table table-bordered";
+
     $scope.studentsList = [
         { studentName: "Omer Cerahoglu", countryFlag: "../../images/studentTableAngular/turkey.png", studentCountry: "Turkey", studentAge: "23", studentDegree: "Bsc Computer Science" },
         { studentName: "Tatiana Smirnova", countryFlag: "../../images/studentTableAngular/russia.png", studentCountry: "Russia", studentAge: "29", studentDegree: "Bsc International Relations" },
