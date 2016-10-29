@@ -100,6 +100,12 @@
     <Content Include="content\airlinesAngularRoute\airlinesAngularRoute.min.css">
       <DependentUpon>airlinesAngularRoute.css</DependentUpon>
     </Content>
+    <Content Include="content\formAngular\formAngularOne.css">
+      <DependentUpon>formAngularOne.scss</DependentUpon>
+    </Content>
+    <Content Include="content\formAngular\formAngularOne.min.css">
+      <DependentUpon>formAngularOne.css</DependentUpon>
+    </Content>
     <Content Include="content\studentTableAngular\studentTableAngular.css">
       <DependentUpon>studentTableAngular.scss</DependentUpon>
     </Content>
@@ -132,12 +138,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="content\formAngular\formAngular.css">
-      <DependentUpon>formAngularOne.scss</DependentUpon>
-    </Content>
-    <Content Include="content\formAngular\formAngular.min.css">
-      <DependentUpon>formAngular.css</DependentUpon>
-    </Content>
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="scripts\airlinesAngularRoute\controllers\airlineCountryController.js" />
