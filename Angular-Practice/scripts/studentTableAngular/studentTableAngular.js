@@ -6,18 +6,11 @@ app.controller("studentController", function ($scope) {
 
     $scope.studentsList = [
         {
-            studentName: "Omer Cerahoglu",
+            studentName: "Adnan Menderes",
             countryFlag: "../../images/studentTableAngular/turkey.png",
             studentCountry: "Turkey",
-            studentAge: "23",
-            studentDegree: "Bsc Computer Science"
-        },
-        {
-            studentName: "Tatiana Smirnova",
-            countryFlag: "../../images/studentTableAngular/russia.png",
-            studentCountry: "Russia",
-            studentAge: "29",
-            studentDegree: "Bsc International Relations"
+            studentAge: "24",
+            studentDegree: "Bsc Computer Science with Business"
         },
         {
             studentName: "Michael McDonald",
@@ -53,6 +46,13 @@ app.controller("studentController", function ($scope) {
             studentCountry: "China",
             studentAge: "22",
             studentDegree: "Bsc Geosciences"
+        },
+        {
+            studentName: "Tatiana Smirnova",
+            countryFlag: "../../images/studentTableAngular/russia.png",
+            studentCountry: "Russia",
+            studentAge: "29",
+            studentDegree: "Bsc International Relations with French"
         }
     ];
 
