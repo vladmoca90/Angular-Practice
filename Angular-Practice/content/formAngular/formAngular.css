@@ -14,6 +14,11 @@
       width: 85% !important;
       margin-left: auto !important;
       margin-right: auto !important; }
+      #form-container #form-content div input[type="date"],
+      #form-container #form-content div input[type="tel"] {
+        width: 38% !important; }
+      #form-container #form-content div select {
+        width: 50% !important; }
 
 .main-details,
 input[type="submit"] {
@@ -25,13 +30,6 @@ input[type="submit"] {
 .required-text,
 input[type="reset"] {
   float: right; }
-
-input[type="date"],
-input[type="tel"] {
-  width: 38% !important; }
-
-select {
-  width: 50% !important; }
 
 .show-hide-toggle {
   margin: 2% 0% 2% 16%; }

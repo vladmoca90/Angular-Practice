@@ -16,6 +16,13 @@ body {
             width: $max-width - 15% !important;
             margin-left: auto !important;
             margin-right: auto !important;
+            input[type="date"],
+            input[type="tel"] {
+                width: $max-width - 62% !important;
+            }
+            select {
+                width: $max-width - 50% !important;
+            }
         }
     }
 }
@@ -29,13 +36,6 @@ input[type="submit"] {
 .required-text,
 input[type="reset"] {
     float: right;
-}
-input[type="date"],
-input[type="tel"] {
-    width: $max-width - 62% !important;
-}
-select {
-    width: $max-width - 50% !important;
 }
 .show-hide-toggle {
     margin: 2% 0% 2% 16%;
