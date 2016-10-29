@@ -20,7 +20,8 @@ body {
     }
  }
 .main-details,
-#buttons #submit-button {
+input[type="submit"],
+input[type="reset"] {
     float: left;
 }
 #buttons {
