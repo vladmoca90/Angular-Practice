@@ -46,18 +46,4 @@ app.controller("formController", function ($scope) {
        },
     ];
 
-    $scope.show = true;
-
-    $scope.formShow = function formShow() {
-        $scope.show = true;
-    }
-
-    $scope.formHide = function formHide() {
-        $scope.show = false;
-    }
-
-    $scope.formToggle = function formToggle() {
-        $scope.show = !$scope.show;
-    }
-
 });
