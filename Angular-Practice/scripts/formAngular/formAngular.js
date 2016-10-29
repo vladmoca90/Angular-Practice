@@ -12,7 +12,7 @@ app.controller("formController", function ($scope) {
         descriptionSection: "Hello, my name is John Alexander Thompson and I am 33 years old. I am an American-Canadian citizen that currently lives in Belfast, Northern Ireland and is looking for a job as a web developer. I speak French and Spanish at a professional level and German at an intermediate one."
     };
 
-    $scope.Regions = [
+    $scope.regionsOptions = [
         {
            Id: 1,
            Name: "European Union",
