@@ -100,6 +100,12 @@
     <Content Include="content\airlinesAngularRoute\airlinesAngularRoute.min.css">
       <DependentUpon>airlinesAngularRoute.css</DependentUpon>
     </Content>
+    <Content Include="content\CountriesListInline\CountriesListInline.css">
+      <DependentUpon>CountriesListInline.scss</DependentUpon>
+    </Content>
+    <Content Include="content\CountriesListInline\CountriesListInline.min.css">
+      <DependentUpon>CountriesListInline.css</DependentUpon>
+    </Content>
     <Content Include="content\formAngular\formAngularOne.css">
       <DependentUpon>formAngularOne.scss</DependentUpon>
     </Content>
@@ -130,6 +136,7 @@
     </None>
     <Content Include="content\airlinesAngularRoute\airlinesAngularRoute.scss" />
     <Content Include="content\studentTableAngular\studentTableAngular.scss" />
+    <Content Include="content\CountriesListInline\CountriesListInline.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -153,9 +160,12 @@
     <Content Include="scripts\airlinesAngularRoute\templates\airlineFleet.html" />
     <Content Include="scripts\airlinesAngularRoute\templates\airlineName.html" />
     <Content Include="scripts\airlinesAngularRoute\templates\error.html" />
+    <Content Include="scripts\CountriesListInline\config.js" />
+    <Content Include="scripts\CountriesListInline\main.js" />
     <Content Include="scripts\formAngular\formAngularOne.js" />
     <Content Include="scripts\studentTableAngular\studentTableAngular.js" />
     <Content Include="sites\airlinesAngularRoute\airlinesAngularRoute.html" />
+    <Content Include="sites\CountriesListInline\CountriesListInline.html" />
     <Content Include="sites\formAngular\formAngularOne.html" />
     <Content Include="sites\studentTableAngular\studentTableAngular.html" />
     <Content Include="Web.config" />
@@ -165,6 +175,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="images\airlinesAngularRoute\" />
+    <Folder Include="scripts\CountriesListInline\controllers\" />
+    <Folder Include="scripts\CountriesListInline\templates\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
