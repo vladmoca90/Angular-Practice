@@ -161,7 +161,17 @@
     <Content Include="scripts\airlinesAngularRoute\templates\airlineName.html" />
     <Content Include="scripts\airlinesAngularRoute\templates\error.html" />
     <Content Include="scripts\CountriesListInline\config.js" />
+    <Content Include="scripts\CountriesListInline\controllers\FranceController.js" />
+    <Content Include="scripts\CountriesListInline\controllers\GermanyController.js" />
+    <Content Include="scripts\CountriesListInline\controllers\ItalyController.js" />
+    <Content Include="scripts\CountriesListInline\controllers\SpainController.js" />
+    <Content Include="scripts\CountriesListInline\controllers\UKController.js" />
     <Content Include="scripts\CountriesListInline\main.js" />
+    <Content Include="scripts\CountriesListInline\templates\France.html" />
+    <Content Include="scripts\CountriesListInline\templates\Germany.html" />
+    <Content Include="scripts\CountriesListInline\templates\Italy.html" />
+    <Content Include="scripts\CountriesListInline\templates\Spain.html" />
+    <Content Include="scripts\CountriesListInline\templates\UK.html" />
     <Content Include="scripts\formAngular\formAngularOne.js" />
     <Content Include="scripts\studentTableAngular\studentTableAngular.js" />
     <Content Include="sites\airlinesAngularRoute\airlinesAngularRoute.html" />
@@ -175,8 +185,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="images\airlinesAngularRoute\" />
-    <Folder Include="scripts\CountriesListInline\controllers\" />
-    <Folder Include="scripts\CountriesListInline\templates\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
