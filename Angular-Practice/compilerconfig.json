@@ -14,5 +14,9 @@
   {
     "outputFile": "content/formAngular/formAngularOne.css",
     "inputFile": "content/formAngular/formAngularOne.scss"
+  },
+  {
+    "outputFile": "content/CountriesListInline/CountriesListInline.css",
+    "inputFile": "content/CountriesListInline/CountriesListInline.scss"
   }
 ]
