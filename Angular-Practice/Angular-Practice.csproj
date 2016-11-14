@@ -164,6 +164,7 @@
     <Content Include="scripts\CountriesListInline\controllers\FranceController.js" />
     <Content Include="scripts\CountriesListInline\controllers\GermanyController.js" />
     <Content Include="scripts\CountriesListInline\controllers\ItalyController.js" />
+    <Content Include="scripts\CountriesListInline\controllers\mainController.js" />
     <Content Include="scripts\CountriesListInline\controllers\SpainController.js" />
     <Content Include="scripts\CountriesListInline\controllers\UKController.js" />
     <Content Include="scripts\CountriesListInline\main.js" />
