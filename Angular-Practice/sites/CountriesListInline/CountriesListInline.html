@@ -31,7 +31,7 @@
 </head>
 <body ng-app="countriesApp">
 
-    <ul id="countries-list" class="list-inline list-unstyled" ng-controller="contriesCtrl">
+    <ul ng-controller="countriesCtrl" id="countries-list-inline" class="list-inline list-unstyled">
         <li ng-repeat="countries in CountriesList">{{countries.name}}</li>
     </ul>
 
