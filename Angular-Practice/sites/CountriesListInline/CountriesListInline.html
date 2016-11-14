@@ -20,6 +20,8 @@
 
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 
+    <link rel="stylesheet" type="text/css" href="../../content/CountriesListInline/CountriesListInline.css" />
+
     <script src="../../scripts/CountriesListInline/config.js"></script>
 
     <script src="../../scripts/CountriesListInline/main.js"></script>
@@ -27,7 +29,7 @@
 </head>
 <body ng-app="countriesApp">
 
-    <ul ng-class="listInlineOfCountries" ng-controller="contriesCtrl">
+    <ul id="countries-list" ng-class="listInlineOfCountries" ng-controller="contriesCtrl">
         <li ng-repeat="countries in CountriesList">{{countries.name}}</li>
     </ul>
 
