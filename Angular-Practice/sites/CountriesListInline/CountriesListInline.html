@@ -27,8 +27,8 @@
 </head>
 <body ng-app="countriesApp">
 
-    <ul class="list-inline" ng-controller="contriesCtrl">
-        <li ng-repeat="countries in CountriesList"></li>
+    <ul ng-class="listInlineOfCountries" ng-controller="contriesCtrl">
+        <li ng-repeat="countries in CountriesList">{{countries.name}}</li>
     </ul>
 
 </body>
