@@ -2,8 +2,6 @@
 
 app.controller("countriesCtrl", function ($scope) {
 
-    $scope.listInlineOfCountries = "list-inline";
-
     $scope.CountriesList = {
         name: "Germany",
         name: "United Kingdom",
