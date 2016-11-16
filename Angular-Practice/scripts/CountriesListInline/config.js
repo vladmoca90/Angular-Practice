@@ -1,5 +1,5 @@
-﻿function routeSetup($routeProvier) {
-    routePrivoder
+﻿function routeSetup($routeProvider) {
+    routeProvider
     .when("/Germany", {
         templateUrl: "../../scripts/CountriesListInline/templates/Germany.html",
         controller: "GermanyController"
