@@ -1,6 +1,4 @@
-﻿var app = angular.module("countriesApp", []);
-
-app.controller("countriesCtrl", function ($scope) {
+﻿function mainController($scope, $http, $location) {
 
     $scope.CountriesList = {
         name: "Germany",
@@ -10,4 +8,6 @@ app.controller("countriesCtrl", function ($scope) {
         name: "Spain"
     }
 
-});
+}
+
+mainController.$inject = [$scope, $http, $location]
