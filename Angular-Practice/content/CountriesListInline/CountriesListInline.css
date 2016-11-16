@@ -3,4 +3,6 @@
   margin: auto;
   font-size: 18px;
   font-family: Ubuntu; }
+  #countries-list-inline li {
+    border: 1px solid black; }
 
