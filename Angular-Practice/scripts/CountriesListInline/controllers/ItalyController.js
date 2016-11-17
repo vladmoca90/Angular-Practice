@@ -2,4 +2,4 @@
 
 }
 
-ItalyController.$inject = [$scope];
+ItalyController.$inject = ["$scope"];

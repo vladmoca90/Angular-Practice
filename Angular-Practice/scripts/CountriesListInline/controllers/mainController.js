@@ -10,4 +10,4 @@
 
 }
 
-mainController.$inject = [$scope, $http, $location]
+mainController.$inject = ["$scope", "$http", "$location"]

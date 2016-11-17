@@ -2,4 +2,4 @@
 
 }
 
-GermanyController.$inject = [$scope];
+GermanyController.$inject = ["$scope"];
