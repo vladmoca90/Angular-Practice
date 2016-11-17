@@ -2,4 +2,4 @@
 
 }
 
-errorController.$inject = [$scope];
+errorController.$inject = ["$scope"];
