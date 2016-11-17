@@ -18,5 +18,33 @@
   {
     "outputFile": "content/CountriesListInline/CountriesListInline.css",
     "inputFile": "content/CountriesListInline/CountriesListInline.scss"
+  },
+  {
+    "outputFile": "scripts/CountriesListInline/controllers/errorController.es5.js",
+    "inputFile": "scripts/CountriesListInline/controllers/errorController.js"
+  },
+  {
+    "outputFile": "scripts/CountriesListInline/controllers/FranceController.es5.js",
+    "inputFile": "scripts/CountriesListInline/controllers/FranceController.js"
+  },
+  {
+    "outputFile": "scripts/CountriesListInline/controllers/GermanyController.es5.js",
+    "inputFile": "scripts/CountriesListInline/controllers/GermanyController.js"
+  },
+  {
+    "outputFile": "scripts/CountriesListInline/controllers/ItalyController.es5.js",
+    "inputFile": "scripts/CountriesListInline/controllers/ItalyController.js"
+  },
+  {
+    "outputFile": "scripts/CountriesListInline/controllers/mainController.es5.js",
+    "inputFile": "scripts/CountriesListInline/controllers/mainController.js"
+  },
+  {
+    "outputFile": "scripts/CountriesListInline/controllers/SpainController.es5.js",
+    "inputFile": "scripts/CountriesListInline/controllers/SpainController.js"
+  },
+  {
+    "outputFile": "scripts/CountriesListInline/controllers/UKController.es5.js",
+    "inputFile": "scripts/CountriesListInline/controllers/UKController.js"
   }
 ]
