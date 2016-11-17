@@ -1,5 +1,5 @@
 ﻿function routeSetup($routeProvider) {
-    routeProvider
+    $routeProvider
     .when("/Germany", {
         templateUrl: "../../scripts/CountriesListInline/templates/Germany.html",
         controller: "GermanyController"
@@ -28,3 +28,5 @@
         redirectTo: "/error"
     });
 }
+
+routeSetup.$inject = ["$routeProvider"];

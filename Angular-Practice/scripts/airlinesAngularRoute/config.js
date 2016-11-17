@@ -25,6 +25,4 @@
     });
 }
 
-routeSetup.$inject = [
-    "$routeProvider"
-];
+routeSetup.$inject = ["$routeProvider"];
