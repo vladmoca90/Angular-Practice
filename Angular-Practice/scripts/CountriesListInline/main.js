@@ -7,4 +7,4 @@ app.controller("mainController", mainController)
    .controller("SpainController", SpainController)
    .controller("ItalyController", ItalyController)
    .controller("errorController", errorController)
-    .config(routeSetup);
+   .config(routeSetup);
