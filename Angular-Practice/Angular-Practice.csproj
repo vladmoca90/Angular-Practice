@@ -169,6 +169,7 @@
     <Content Include="scripts\CountriesListInline\controllers\SpainController.js" />
     <Content Include="scripts\CountriesListInline\controllers\UKController.js" />
     <Content Include="scripts\CountriesListInline\main.js" />
+    <Content Include="scripts\CountriesListInline\templates\error.html" />
     <Content Include="scripts\CountriesListInline\templates\France.html" />
     <Content Include="scripts\CountriesListInline\templates\Germany.html" />
     <Content Include="scripts\CountriesListInline\templates\Italy.html" />
