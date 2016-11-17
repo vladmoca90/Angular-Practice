@@ -44,10 +44,10 @@
 <body ng-app="countriesApp">
 
     <ul role="list" ng-controller="mainController" id="countries-list-inline" class="list-inline list-unstyled">
-        <li role="listitem" ng-repeat="countries in CountriesList">{{countries.name}}</li>
-        <li role="listitem" ng-repeat="countries in CountriesList">{{countries.name}}</li>
-        <li role="listitem" ng-repeat="countries in CountriesList">{{countries.name}}</li>
-        <li role="listitem" ng-repeat="countries in CountriesList">{{countries.name}}</li>
+        <li role="listitem" ng-repeat="countries in CountriesList">{{countries.countryName}}</li>
+        <li role="listitem" ng-repeat="countries in CountriesList">{{countries.countryName}}</li>
+        <li role="listitem" ng-repeat="countries in CountriesList">{{countries.countryName}}</li>
+        <li role="listitem" ng-repeat="countries in CountriesList">{{countries.countryName}}</li>
     </ul>
 
     <div ng-view></div>

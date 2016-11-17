@@ -1,4 +1,6 @@
-﻿function mainController($scope, $http) {
+﻿"use strict";
+
+function mainController($scope, $http) {
 
     $scope.CountriesList = {
         countryName: "Germany",
@@ -6,8 +8,8 @@
         countryName: "France",
         countryName: "Italy",
         countryName: "Spain"
-    }
-
+    };
 }
 
 mainController.$inject = ["$scope", "$http"];
+
