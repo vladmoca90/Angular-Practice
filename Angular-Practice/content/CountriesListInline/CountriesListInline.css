@@ -6,11 +6,11 @@
   font-family: Ubuntu; }
   #countries-list-inline li {
     padding: 10px 15px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black; }
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000; }
     #countries-list-inline li:nth-child(1) {
-      border-left: 1px solid black; }
+      border-left: 1px solid #000000; }
     #countries-list-inline li:hover {
       cursor: pointer;
       background: #FF6A00;

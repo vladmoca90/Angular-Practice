@@ -1,5 +1,6 @@
 ﻿$max-width: 100%;
 $white: #FFFFFF;
+$black: #000000;
 
 #countries-list-inline {
     width: $max-width;
@@ -11,11 +12,11 @@ $white: #FFFFFF;
     }
     li {
         padding: 10px 15px;
-        border-top: 1px solid black;
-        border-bottom: 1px solid black;
-        border-right: 1px solid black;
+        border-top: 1px solid $black;
+        border-bottom: 1px solid $black;
+        border-right: 1px solid $black;
         &:nth-child(1) {
-            border-left: 1px solid black;
+            border-left: 1px solid $black;
         }
         &:hover {
             cursor: pointer;
