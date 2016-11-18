@@ -43,13 +43,13 @@
 </head>
 <body ng-app="countriesApp">
 
-    <div ng-controller="mainController">
-        <ul role="list" id="countries-list-inline" class="list-inline list-unstyled">
-            <li role="listitem" ng-repeat="countries in CountriesList">{{countries.countryName}}</li>
-        </ul>
-    </div>
+<div ng-controller="mainController">
+    <ul role="list" id="countries-list-inline" class="list-inline list-unstyled">
+        <li role="listitem" ng-repeat="countries in CountriesList">{{countries.countryName}}</li>
+    </ul>
+</div>
 
-    <div ng-view></div>
+<div ng-view></div>
 
 </body>
 </html>
