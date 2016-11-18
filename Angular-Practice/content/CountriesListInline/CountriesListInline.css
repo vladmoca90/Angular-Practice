@@ -4,5 +4,7 @@
   font-size: 18px;
   font-family: Ubuntu; }
   #countries-list-inline li {
-    border: 1px solid black; }
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black; }
 
