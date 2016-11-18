@@ -1,4 +1,5 @@
 ﻿$max-width: 100%;
+$white: #FFFFFF;
 
 #countries-list-inline {
     width: $max-width;
@@ -19,7 +20,7 @@
         &:hover {
             cursor: pointer;
             background: #FF6A00;
-            color: #FFFFFF;
+            color: $white;
         }
     }
 }
