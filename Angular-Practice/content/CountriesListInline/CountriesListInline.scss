@@ -1,5 +1,7 @@
-﻿#countries-list-inline {
-    width: 100%;
+﻿$max-width: 100%;
+
+#countries-list-inline {
+    width: $max-width;
     max-width: 500px;
     margin: 3% auto;
     font-size: 18px;
