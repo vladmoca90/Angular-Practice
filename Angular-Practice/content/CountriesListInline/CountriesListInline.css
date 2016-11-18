@@ -11,4 +11,8 @@
     border-right: 1px solid black; }
     #countries-list-inline li:nth-child(1) {
       border-left: 1px solid black; }
+    #countries-list-inline li:hover {
+      cursor: pointer;
+      background: #FF6A00;
+      color: #FFFFFF; }
 

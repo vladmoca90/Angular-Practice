@@ -16,5 +16,10 @@
         &:nth-child(1) {
             border-left: 1px solid black;
         }
+        &:hover {
+            cursor: pointer;
+            background: #FF6A00;
+            color: #FFFFFF;
+        }
     }
 }
