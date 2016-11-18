@@ -1,4 +1,6 @@
 ﻿#countries-list-inline {
+  width: 100%;
+  max-width: 500px;
   margin: 3% auto;
   font-size: 18px;
   font-family: Ubuntu; }
