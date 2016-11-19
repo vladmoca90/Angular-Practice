@@ -59,10 +59,10 @@
             </div>
             <div role="group" ng-class="groupsOfFormsItems">
                 <label for="checkboxButtons">Select languages:</label> <br />
-                French: <input type="checkbox" ng-model="checkboxSection1" value="chooseCheckboxOption1" checked="checked" /> <br />
-                Spanish: <input type="checkbox" ng-model="checkboxSection2" value="chooseCheckboxOption2" /> <br />
-                German: <input type="checkbox" ng-model="checkboxSection3" value="chooseCheckboxOption3" /> <br />
-                Chinese: <input type="checkbox" ng-model="checkboxSection4" value="chooseCheckboxOption4" checked="checked" />
+                French: <input type="checkbox" ng-model="checkboxSection1" value="chooseCheckboxOption1" checked="checked" aria-checked="true" /> <br />
+                Spanish: <input type="checkbox" ng-model="checkboxSection2" value="chooseCheckboxOption2" aria-checked="false" /> <br />
+                German: <input type="checkbox" ng-model="checkboxSection3" value="chooseCheckboxOption3" aria-checked="false" /> <br />
+                Chinese: <input type="checkbox" ng-model="checkboxSection4" value="chooseCheckboxOption4" checked="checked" aria-checked="true" />
             </div>
             <div role="radiogroup" ng-class="groupsOfFormsItems">
                 <label for="radioButtons">Current status:</label> <br />
