@@ -1,4 +1,4 @@
-﻿function mainController($scope, $http) {
+﻿function mainController($scope, $http, $location) {
 
     $scope.countriesInlineProperties = "list-inline list-unstyled;"
 
@@ -12,4 +12,4 @@
 
 }
 
-mainController.$inject = ["$scope", "$http"];
+mainController.$inject = ["$scope", "$http", "$location"];
