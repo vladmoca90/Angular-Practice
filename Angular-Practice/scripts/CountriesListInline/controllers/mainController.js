@@ -10,6 +10,10 @@
         { countryName: "Spain" }
     ];
 
+    $scope.goToCountryName = function goToCountryName(country) {
+        $location.path("/France");
+    }
+
 }
 
 mainController.$inject = ["$scope", "$http", "$location"];
