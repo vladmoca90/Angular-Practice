@@ -31,11 +31,11 @@
         <form role="form" class="form-horizontal" id="form-content">
             <div role="group" ng-class="groupsOfFormsItems">
                 <label for="firstName" >First Name:</label>
-                <input role="textbox" type="text" name="firstName" ng-class="formControlClass" ng-model="user.firstName" required />
+                <input role="textbox" type="text" name="firstName" ng-class="formControlClass" ng-model="user.firstName" aria-required="true" required />
             </div>
             <div role="group" ng-class="groupsOfFormsItems">
                 <label for="fastName" >Last Name:</label>
-                <input role="textbox" type="text" name="lastName" ng-class="formControlClass" ng-model="user.lastName" required />
+                <input role="textbox" type="text" name="lastName" ng-class="formControlClass" ng-model="user.lastName" aria-required="true" required />
             </div>
             <div role="group" ng-class="groupsOfFormsItems">
                 <label for="dateOfBirth">Date of Birth:</label>
@@ -43,19 +43,19 @@
             </div>
             <div role="group" ng-class="groupsOfFormsItems">
                 <label for="myEmail">Email:</label>
-                <input role="textbox" type="email" name="myEmail" ng-class="formControlClass" ng-model="user.myEmail" required />
+                <input role="textbox" type="email" name="myEmail" ng-class="formControlClass" ng-model="user.myEmail" aria-required="true" required />
             </div>
             <div role="group" ng-class="groupsOfFormsItems">
                 <label for="myPassword">Password:</label>
-                <input role="textbox" type="password" name="myPassword" ng-class="formControlClass" ng-model="user.myPassword" required />
+                <input role="textbox" type="password" name="myPassword" ng-class="formControlClass" ng-model="user.myPassword" aria-required="true" required />
             </div>
             <div role="group" ng-class="groupsOfFormsItems">
                 <label for="myTelephone" >Telephone:</label>
-                <input role="textbox" type="tel" name="myTelephone" ng-class="formControlClass" ng-model="user.myTelephone" required />
+                <input role="textbox" type="tel" name="myTelephone" ng-class="formControlClass" ng-model="user.myTelephone" aria-required="true" required />
             </div>
             <div role="group" ng-class="groupsOfFormsItems">
                 <label for="myURL" >URL:</label>
-                <input role="textbox" type="url" name="myURL" ng-class="formControlClass" ng-model="user.myURL" required />
+                <input role="textbox" type="url" name="myURL" ng-class="formControlClass" ng-model="user.myURL" aria-required="true" required />
             </div>
             <div role="group" ng-class="groupsOfFormsItems">
                 <label for="checkboxButtons">Select languages:</label> <br />
@@ -81,7 +81,7 @@
             </div>
             <div role="group" ng-class="groupsOfFormsItems">
                 <label for="description">Description:</label>
-                <textarea role="textbox" rows="10" ng-class="formControlClass" ng-model="user.descriptionSection" required></textarea>
+                <textarea role="textbox" rows="10" ng-class="formControlClass" ng-model="user.descriptionSection" aria-required="true" required></textarea>
             </div>
             <div role="group" ng-class="groupsOfFormsItems">
                 <label for="formPicture">Upload your picture:</label>
