@@ -203,6 +203,12 @@
       <DependentUpon>SpainController.es5.js</DependentUpon>
     </Content>
     <Content Include="scripts\CountriesListInline\controllers\SpainController.js" />
+    <Content Include="scripts\CountriesListInline\controllers\UKController.es5.js">
+      <DependentUpon>UKController.js</DependentUpon>
+    </Content>
+    <Content Include="scripts\CountriesListInline\controllers\UKController.es5.min.js">
+      <DependentUpon>UKController.es5.js</DependentUpon>
+    </Content>
     <Content Include="scripts\CountriesListInline\controllers\UKController.js" />
     <Content Include="scripts\CountriesListInline\main.js" />
     <Content Include="scripts\CountriesListInline\templates\error.html" />
