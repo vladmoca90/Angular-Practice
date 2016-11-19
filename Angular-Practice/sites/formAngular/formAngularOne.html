@@ -66,10 +66,10 @@
             </div>
             <div role="radiogroup" ng-class="groupsOfFormsItems">
                 <label for="radioButtons">Current status:</label> <br />
-                Employed: <input role="radio" type="radio" ng-model="radioSection" name="chooseRadioOption" /> <br />
-                Unemployed: <input role="radio" type="radio" ng-model="radioSection" name="chooseRadioOption" /> <br />
-                Retired: <input role="radio" type="radio" ng-model="radioSection" name="chooseRadioOption" /> <br />
-                Student: <input role="radio" type="radio" ng-model="radioSection" name="chooseRadioOption" />
+                Employed: <input role="radio" type="radio" ng-model="radioSection" name="chooseRadioOption" checked="checked" aria-checked="true" /> <br />
+                Unemployed: <input role="radio" type="radio" ng-model="radioSection" name="chooseRadioOption" aria-checked="false" /> <br />
+                Retired: <input role="radio" type="radio" ng-model="radioSection" name="chooseRadioOption" aria-checked="false" /> <br />
+                Student: <input role="radio" type="radio" ng-model="radioSection" name="chooseRadioOption" aria-checked="false" />
             </div>
             <div role="group" ng-class="groupsOfFormsItems">
                 <label for="chooseOption">Choose your area:</label>
