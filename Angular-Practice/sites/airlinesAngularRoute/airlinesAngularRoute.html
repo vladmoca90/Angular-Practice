@@ -41,18 +41,18 @@
 </head>
 <body ng-app="myApp">
 
-    <div id="box" ng-controller="mainController">
-        <table role="presentation" ng-class="borderedTable">
-            <tr ng-repeat="airline in airlinesList">
-                <td><a ng-click="goToAirlineName(name)">{{airline.airlineName}}</a></td>
-                <td><a ng-click="goToAirlineCountry(country)">{{airline.airlineCountry}}</a></td>
-                <td><a ng-click="goToAirlineFleet(fleet)">{{airline.airlineFleet}}</a></td>
-                <td><a ng-click="goToAirlineDestinations(destinations)">{{airline.airlineDestinations}}</a></td>
-            </tr>
-        </table>
-    </div>
+<div id="box" ng-controller="mainController">
+    <table role="presentation" ng-class="borderedTable">
+        <tr ng-repeat="airline in airlinesList">
+            <td><a ng-click="goToAirlineName(name)">{{airline.airlineName}}</a></td>
+            <td><a ng-click="goToAirlineCountry(country)">{{airline.airlineCountry}}</a></td>
+            <td><a ng-click="goToAirlineFleet(fleet)">{{airline.airlineFleet}}</a></td>
+            <td><a ng-click="goToAirlineDestinations(destinations)">{{airline.airlineDestinations}}</a></td>
+        </tr>
+    </table>
+</div>
 
-    <div ng-view></div>
+<div ng-view></div>
 
 </body>
 </html>
