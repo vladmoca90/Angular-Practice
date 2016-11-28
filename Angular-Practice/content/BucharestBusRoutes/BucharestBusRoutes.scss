@@ -4,4 +4,11 @@ table {
     width: $max-width;
     max-width: 500px !important;
     margin: auto;
+    tbody td {
+        font: {
+            size: 16px;
+            weight: bold;
+            family: Tahoma;
+        }
+    }
 }
