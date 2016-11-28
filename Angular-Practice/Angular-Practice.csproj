@@ -100,6 +100,12 @@
     <Content Include="content\airlinesAngularRoute\airlinesAngularRoute.min.css">
       <DependentUpon>airlinesAngularRoute.css</DependentUpon>
     </Content>
+    <Content Include="content\BucharestBusRoutes\BucharestBusRoutes.css">
+      <DependentUpon>BucharestBusRoutes.scss</DependentUpon>
+    </Content>
+    <Content Include="content\BucharestBusRoutes\BucharestBusRoutes.min.css">
+      <DependentUpon>BucharestBusRoutes.css</DependentUpon>
+    </Content>
     <Content Include="content\CountriesListInline\CountriesListInline.css">
       <DependentUpon>CountriesListInline.scss</DependentUpon>
     </Content>
@@ -137,6 +143,7 @@
     <Content Include="content\airlinesAngularRoute\airlinesAngularRoute.scss" />
     <Content Include="content\studentTableAngular\studentTableAngular.scss" />
     <Content Include="content\CountriesListInline\CountriesListInline.scss" />
+    <Content Include="content\BucharestBusRoutes\BucharestBusRoutes.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -160,6 +167,9 @@
     <Content Include="scripts\airlinesAngularRoute\templates\airlineFleet.html" />
     <Content Include="scripts\airlinesAngularRoute\templates\airlineName.html" />
     <Content Include="scripts\airlinesAngularRoute\templates\error.html" />
+    <Content Include="scripts\BucharestBusRoutes\config.js" />
+    <Content Include="scripts\BucharestBusRoutes\controllers\mainController.js" />
+    <Content Include="scripts\BucharestBusRoutes\main.js" />
     <Content Include="scripts\CountriesListInline\config.js" />
     <Content Include="scripts\CountriesListInline\controllers\errorController.es5.js">
       <DependentUpon>errorController.js</DependentUpon>
@@ -220,6 +230,7 @@
     <Content Include="scripts\formAngular\formAngularOne.js" />
     <Content Include="scripts\studentTableAngular\studentTableAngular.js" />
     <Content Include="sites\airlinesAngularRoute\airlinesAngularRoute.html" />
+    <Content Include="sites\BucharestBusRoutes\BucharestBusRoutes.html" />
     <Content Include="sites\CountriesListInline\CountriesListInline.html" />
     <Content Include="sites\formAngular\formAngularOne.html" />
     <Content Include="sites\studentTableAngular\studentTableAngular.html" />
@@ -230,6 +241,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="images\airlinesAngularRoute\" />
+    <Folder Include="scripts\BucharestBusRoutes\templates\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
