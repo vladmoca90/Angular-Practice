@@ -173,6 +173,7 @@
     <Content Include="scripts\BucharestBusRoutes\controllers\bus205controller.js" />
     <Content Include="scripts\BucharestBusRoutes\controllers\bus301controller.js" />
     <Content Include="scripts\BucharestBusRoutes\controllers\bus336controller.js" />
+    <Content Include="scripts\BucharestBusRoutes\controllers\errorController.js" />
     <Content Include="scripts\BucharestBusRoutes\controllers\mainController.js" />
     <Content Include="scripts\BucharestBusRoutes\main.js" />
     <Content Include="scripts\BucharestBusRoutes\templates\bus104.html" />
