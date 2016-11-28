@@ -168,8 +168,18 @@
     <Content Include="scripts\airlinesAngularRoute\templates\airlineName.html" />
     <Content Include="scripts\airlinesAngularRoute\templates\error.html" />
     <Content Include="scripts\BucharestBusRoutes\config.js" />
+    <Content Include="scripts\BucharestBusRoutes\controllers\bus104controller.js" />
+    <Content Include="scripts\BucharestBusRoutes\controllers\bus131controller.js" />
+    <Content Include="scripts\BucharestBusRoutes\controllers\bus205controller.js" />
+    <Content Include="scripts\BucharestBusRoutes\controllers\bus301controller.js" />
+    <Content Include="scripts\BucharestBusRoutes\controllers\bus336controller.js" />
     <Content Include="scripts\BucharestBusRoutes\controllers\mainController.js" />
     <Content Include="scripts\BucharestBusRoutes\main.js" />
+    <Content Include="scripts\BucharestBusRoutes\templates\bus104.html" />
+    <Content Include="scripts\BucharestBusRoutes\templates\bus131.html" />
+    <Content Include="scripts\BucharestBusRoutes\templates\bus205.html" />
+    <Content Include="scripts\BucharestBusRoutes\templates\bus301.html" />
+    <Content Include="scripts\BucharestBusRoutes\templates\bus336.html" />
     <Content Include="scripts\CountriesListInline\config.js" />
     <Content Include="scripts\CountriesListInline\controllers\errorController.es5.js">
       <DependentUpon>errorController.js</DependentUpon>
@@ -241,7 +251,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="images\airlinesAngularRoute\" />
-    <Folder Include="scripts\BucharestBusRoutes\templates\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
