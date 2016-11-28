@@ -1,4 +1,4 @@
-﻿function mainController($scope, $http) {
+﻿function mainController($scope, $http, $location) {
 
     $scope.BusesListHeadings = {
         headingName: "Bus Number",
@@ -16,4 +16,4 @@
 
 }
 
-mainController.$inject = ["$scope", "$http"];
+mainController.$inject = ["$scope", "$http", "$location"];
