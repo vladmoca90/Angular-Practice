@@ -28,7 +28,7 @@
 <body ng-app="formApp">
 
     <div id="form-container" ng-controller="formController">
-        <form role="form" class="form-horizontal" id="form-content">
+        <form role="form" method="post" class="form-horizontal" id="form-content">
             <div role="group" ng-class="groupsOfFormsItems">
                 <label for="firstName" >First Name:</label>
                 <input role="textbox" type="text" name="firstName" ng-class="formControlClass" ng-model="user.firstName" aria-required="true" required />
