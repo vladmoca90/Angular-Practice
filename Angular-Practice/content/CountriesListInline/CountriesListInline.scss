@@ -10,14 +10,8 @@ $black: #000000;
         size: 18px;
         family: Ubuntu;
     }
-    li {
+    td {
         padding: 10px 15px;
-        border-top: 1px solid $black;
-        border-bottom: 1px solid $black;
-        border-right: 1px solid $black;
-        &:nth-child(1) {
-            border-left: 1px solid $black;
-        }
         &:hover {
             cursor: pointer;
             background: #FF6A00;

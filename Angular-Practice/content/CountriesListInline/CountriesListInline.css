@@ -4,14 +4,9 @@
   margin: 3% auto;
   font-size: 18px;
   font-family: Ubuntu; }
-  #countries-list-inline li {
-    padding: 10px 15px;
-    border-top: 1px solid #000000;
-    border-bottom: 1px solid #000000;
-    border-right: 1px solid #000000; }
-    #countries-list-inline li:nth-child(1) {
-      border-left: 1px solid #000000; }
-    #countries-list-inline li:hover {
+  #countries-list-inline td {
+    padding: 10px 15px; }
+    #countries-list-inline td:hover {
       cursor: pointer;
       background: #FF6A00;
       color: #FFFFFF; }
