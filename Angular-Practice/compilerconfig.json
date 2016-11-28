@@ -46,5 +46,9 @@
   {
     "outputFile": "scripts/CountriesListInline/controllers/UKController.es5.js",
     "inputFile": "scripts/CountriesListInline/controllers/UKController.js"
+  },
+  {
+    "outputFile": "content/BucharestBusRoutes/BucharestBusRoutes.css",
+    "inputFile": "content/BucharestBusRoutes/BucharestBusRoutes.scss"
   }
 ]
