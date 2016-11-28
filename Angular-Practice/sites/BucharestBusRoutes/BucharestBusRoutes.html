@@ -33,7 +33,9 @@
         </thead>
         <tbody>
             <tr ng-repeat="bus in BusesList">
-                <td></td>
+                <td>{{bus.name}}</td>
+                <td>{{bus.toDestintion}}</td>
+                <td>{{bus.fromDestination}}</td>
             </tr>
         </tbody>
     </table>
