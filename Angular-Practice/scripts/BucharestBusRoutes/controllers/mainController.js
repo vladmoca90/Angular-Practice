@@ -1,9 +1,7 @@
 ﻿function mainController($scope, $http) {
 
     $scope.BusesListHeadings = {
-        headingName: "Bus Number",
-        headingTo: "Origin",
-        headingFrom: "Destination"
+        headingName: "Bus Number", headingName: "Origin", headingName: "Destination",
     }
 
     $scope.BusesList = [
