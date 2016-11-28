@@ -44,9 +44,11 @@
 <body ng-app="countriesApp">
 
 <div ng-controller="mainController">
-    <ul role="list" id="countries-list-inline" ng-class="countriesInlineProperties">
-        <li role="listitem" ng-click="goToCountryName(country)" ng-repeat="countries in CountriesList">{{countries.countryName}}</li>
-    </ul>
+    <table role="list" id="countries-list-inline" ng-class="countriesInlineProperties">
+        <tr>
+            <td role="listitem" ng-click="goToCountryName(country)" ng-repeat="countries in CountriesList">{{countries.countryName}}</td>
+        </tr>
+    </table>
 </div>
 
 <div ng-view></div>
