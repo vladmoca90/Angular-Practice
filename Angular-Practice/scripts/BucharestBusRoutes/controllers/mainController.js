@@ -18,6 +18,10 @@
         $location.path("/bus205");
     }
 
+    $scope.goToBustoDestination = function goTotoDestination(toDestination) {
+        $location.path("/bus336");
+    }
+
 }
 
 mainController.$inject = ["$scope", "$http", "$location"];
