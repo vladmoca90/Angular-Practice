@@ -118,6 +118,12 @@
     <Content Include="content\formAngular\formAngularOne.min.css">
       <DependentUpon>formAngularOne.css</DependentUpon>
     </Content>
+    <Content Include="content\RomanianHighschoolExamResults\RomanianHighschoolExamResults.css">
+      <DependentUpon>RomanianHighschoolExamResults.scss</DependentUpon>
+    </Content>
+    <Content Include="content\RomanianHighschoolExamResults\RomanianHighschoolExamResults.min.css">
+      <DependentUpon>RomanianHighschoolExamResults.css</DependentUpon>
+    </Content>
     <Content Include="content\studentTableAngular\studentTableAngular.css">
       <DependentUpon>studentTableAngular.scss</DependentUpon>
     </Content>
@@ -144,6 +150,7 @@
     <Content Include="content\studentTableAngular\studentTableAngular.scss" />
     <Content Include="content\CountriesListInline\CountriesListInline.scss" />
     <Content Include="content\BucharestBusRoutes\BucharestBusRoutes.scss" />
+    <Content Include="content\RomanianHighschoolExamResults\RomanianHighschoolExamResults.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -240,11 +247,13 @@
     <Content Include="scripts\CountriesListInline\templates\Spain.html" />
     <Content Include="scripts\CountriesListInline\templates\UK.html" />
     <Content Include="scripts\formAngular\formAngularOne.js" />
+    <Content Include="scripts\RomanianHighschoolExamResults\RomanianHighschoolExamResults.js" />
     <Content Include="scripts\studentTableAngular\studentTableAngular.js" />
     <Content Include="sites\airlinesAngularRoute\airlinesAngularRoute.html" />
     <Content Include="sites\BucharestBusRoutes\BucharestBusRoutes.html" />
     <Content Include="sites\CountriesListInline\CountriesListInline.html" />
     <Content Include="sites\formAngular\formAngularOne.html" />
+    <Content Include="sites\RomanianHighschoolExamResults\RomanianHighschoolExamResults.html" />
     <Content Include="sites\studentTableAngular\studentTableAngular.html" />
     <Content Include="Web.config" />
   </ItemGroup>
