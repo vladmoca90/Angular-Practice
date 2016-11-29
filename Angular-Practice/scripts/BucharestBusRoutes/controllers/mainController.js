@@ -14,6 +14,10 @@
         { name: "336", toDestination: "Piata C.A. Rosetti", fromDestination: "Complex Apusului" }
     ];
 
+    $scope.goToBusName = function goToBusName(name) {
+        $location.path("/bus205");
+    }
+
 }
 
 mainController.$inject = ["$scope", "$http", "$location"];
