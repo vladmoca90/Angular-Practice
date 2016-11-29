@@ -2,11 +2,11 @@
 
 table {
     width: $max-width;
-    max-width: 500px;
+    max-width: 500px !important;
     margin: 2% auto;
     text-align: center;
     font: {
         family: Calibri;
-        size: 15px;
+        size: 16px;
     }
 }
