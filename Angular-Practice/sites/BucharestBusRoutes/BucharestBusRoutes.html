@@ -53,9 +53,9 @@
         </thead>
         <tbody>
             <tr ng-repeat="bus in BusesList">
-                <td class="text-center" ng-click="goToBusName(name)">{{bus.name}}</td>
-                <td class="text-center" ng-click="goToBustoDestination(toDestination)">{{bus.toDestination}}</td>
-                <td class="text-center" ng-click="goToBusfromDestination(fromDestination)">{{bus.fromDestination}}</td>
+                <td class="text-center"><a href="#" ng-click="goToBusName(name)" >{{bus.name}}</a></td>
+                <td class="text-center"><a href="#" ng-click="goToBustoDestination(toDestination)">{{bus.toDestination}}</a></td>
+                <td class="text-center"><a href="#" ng-click="goToBusfromDestination(fromDestination)">{{bus.fromDestination}}</a></td>
             </tr>
         </tbody>
     </table>
