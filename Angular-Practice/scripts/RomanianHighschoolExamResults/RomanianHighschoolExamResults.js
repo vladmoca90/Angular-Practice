@@ -2,4 +2,8 @@
 
 app.controller("examResultsController", function ($scope) {
 
+    $scope.resultsList = {
+
+    }
+
 });
