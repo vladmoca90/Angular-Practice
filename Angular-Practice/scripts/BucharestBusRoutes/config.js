@@ -1,5 +1,4 @@
-﻿
-function routeSetup($routeProvider) {
+﻿function routeSetup($routeProvider) {
     $routeProvider
     .when("/bus104", {
         templateUrl: "../../scripts/BucharestBusRoutes/templates/bus104.html",
