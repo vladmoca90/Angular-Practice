@@ -1,22 +1,26 @@
 ﻿
 function routeSetup($routeProvider) {
     $routeProvider
-    .when("/airlineName", {
-        templateUrl: "../../scripts/airlinesAngularRoute/templates/airlineName.html",
-        controller: "airlineNameController"
+    .when("/bus104", {
+        templateUrl: "../../scripts/airlinesAngularRoute/templates/bus104.html",
+        controller: "bus104Controller"
     })
-    .when("/airlineCountry", {
-        templateUrl: "../../scripts/airlinesAngularRoute/templates/airlineCountry.html",
-        controller: "airlineCountryController"
+    .when("/bus131", {
+        templateUrl: "../../scripts/airlinesAngularRoute/templates/bus131.html",
+        controller: "bus131Controller"
     })
-    .when("/airlineFleet", {
-        templateUrl: "../../scripts/airlinesAngularRoute/templates/airlineFleet.html",
-        controller: "airlineFleetController"
+    .when("/bus205", {
+        templateUrl: "../../scripts/airlinesAngularRoute/templates/bus205.html",
+        controller: "bus205Controller"
     })
-    .when("/airlineDestinations", {
-        templateUrl: "../../scripts/airlinesAngularRoute/templates/airlineDestinations.html",
-        controller: "airlineDestinationsController"
+    .when("/bus301", {
+        templateUrl: "../../scripts/airlinesAngularRoute/templates/bus301.html",
+        controller: "bus301Controller"
     })
+    .when("/bus336", {
+        templateUrl: "../../scripts/airlinesAngularRoute/templates/bus336.html",
+        controller: "bus336Controller"
+     })
     .when("/error", {
         templateUrl: "../../scripts/airlinesAngularRoute/templates/error.html",
         controller: "errorController"
