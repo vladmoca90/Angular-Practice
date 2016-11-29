@@ -9,7 +9,9 @@ h3 {
   text-align: center; }
 
 #message-box {
-  max-width: 300px; }
+  max-width: 300px;
+  font-weight: bold;
+  font-family: Verdana; }
 
 #countries-list-inline {
   max-width: 500px;
