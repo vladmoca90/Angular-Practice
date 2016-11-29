@@ -51,19 +51,19 @@
 
     <table role="presentation" id="countries-list-inline" ng-class="tableProperties">
         <tr>
-            <td ng-click="goToCountryGermany(country)" ng-repeat="countries in CountriesList">{{countries.countryName}}</td>
+            <td ng-repeat="countries in CountriesList"><a href="#" ng-click="goToCountryGermany(country)">{{countries.countryName}}</a></td>
         </tr>
         <tr>
-            <td ng-click="goToCountryUK(country)" ng-repeat="countries in CountriesList">{{countries.countryName}}</td>
+            <td ng-repeat="countries in CountriesList"><a href="#" ng-click="goToCountryUK(country)">{{countries.countryName}}</a></td>
         </tr>
         <tr>
-            <td ng-click="goToCountryFrance(country)" ng-repeat="countries in CountriesList">{{countries.countryName}}</td>
+            <td ng-repeat="countries in CountriesList"><a href="#" ng-click="goToCountryFrance(country)">{{countries.countryName}}</a></td>
         </tr>
         <tr>
-            <td ng-click="goToCountryItaly(country)" ng-repeat="countries in CountriesList">{{countries.countryName}}</td>
+            <td ng-repeat="countries in CountriesList"><a href="#" ng-click="goToCountryItaly(country)">{{countries.countryName}}</a></td>
         </tr>
         <tr>
-            <td ng-click="goToCountrySpain(country)" ng-repeat="countries in CountriesList">{{countries.countryName}}</td>
+            <td ng-repeat="countries in CountriesList"><a href="#" ng-click="goToCountrySpain(country)">{{countries.countryName}}</a></td>
         </tr>
     </table>
 </div>
