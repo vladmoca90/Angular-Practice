@@ -8,3 +8,11 @@
   table tbody tr:nth-child(3), table tbody tr:nth-child(5) {
     background: #FB1C1C; }
 
+.table-bordered > tbody > tr > td,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > td,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > thead > tr > th {
+  border: 1px solid #000000 !important; }
+
