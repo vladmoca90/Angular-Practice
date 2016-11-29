@@ -6,4 +6,5 @@ app.controller("mainController", mainController)
    .controller("bus205controller", bus205controller)
    .controller("bus301controller", bus301controller)
    .controller("bus336controller", bus336controller)
+   .controller("errorController", errorController)
    .config(routeSetup);
