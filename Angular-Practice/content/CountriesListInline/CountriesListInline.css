@@ -20,7 +20,8 @@ h3 {
   #countries-list-inline td {
     padding: 10px 15px; }
     #countries-list-inline td a {
-      color: #000000; }
+      color: #000000;
+      text-decoration: none; }
     #countries-list-inline td:hover {
       cursor: pointer;
       background: #FF6A00;
