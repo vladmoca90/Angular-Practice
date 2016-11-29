@@ -44,6 +44,11 @@
 <body ng-app="countriesApp">
 
 <div ng-controller="mainController">
+
+    <div class="alert alert-success">
+        <p>Click from top to bottom!</p>
+    </div>
+
     <table role="presentation" id="countries-list-inline" ng-class="tableProperties">
         <tr>
             <td ng-click="goToCountryGermany(country)" ng-repeat="countries in CountriesList">{{countries.countryName}}</td>
