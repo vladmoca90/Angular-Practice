@@ -50,5 +50,9 @@
   {
     "outputFile": "content/BucharestBusRoutes/BucharestBusRoutes.css",
     "inputFile": "content/BucharestBusRoutes/BucharestBusRoutes.scss"
+  },
+  {
+    "outputFile": "content/RomanianHighschoolExamResults/RomanianHighschoolExamResults.css",
+    "inputFile": "content/RomanianHighschoolExamResults/RomanianHighschoolExamResults.scss"
   }
 ]
