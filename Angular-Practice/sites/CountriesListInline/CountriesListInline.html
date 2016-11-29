@@ -44,7 +44,7 @@
 <body ng-app="countriesApp">
 
 <div ng-controller="mainController">
-    <table role="presentation" id="countries-list-inline" ng-class="countriesInlineProperties">
+    <table role="presentation" id="countries-list-inline" ng-class="tableProperties">
         <tr>
             <td ng-click="goToCountryGermany(country)" ng-repeat="countries in CountriesList">{{countries.countryName}}</td>
         </tr>
