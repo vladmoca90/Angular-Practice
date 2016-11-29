@@ -2,9 +2,11 @@
   width: 100%;
   max-width: 900px !important;
   margin: 2% auto;
-  text-align: center;
   font-family: Calibri;
   font-size: 16px; }
+  table tr > th,
+  table tr > td {
+    text-align: center; }
   table tbody tr:nth-child(3), table tbody tr:nth-child(5) {
     background: #FB1C1C;
     color: #FFFFFF; }

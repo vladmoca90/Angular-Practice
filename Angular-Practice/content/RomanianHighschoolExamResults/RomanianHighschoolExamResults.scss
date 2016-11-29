@@ -4,10 +4,13 @@ table {
     width: $max-width;
     max-width: 900px !important;
     margin: 2% auto;
-    text-align: center;
     font: {
         family: Calibri;
         size: 16px;
+    }
+    tr>th,
+    tr>td {
+        text-align: center;
     }
     tbody tr {
         &:nth-child(3),
