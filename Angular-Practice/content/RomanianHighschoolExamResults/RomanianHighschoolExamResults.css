@@ -6,7 +6,8 @@
   font-family: Calibri;
   font-size: 16px; }
   table tbody tr:nth-child(3), table tbody tr:nth-child(5) {
-    background: #FB1C1C; }
+    background: #FB1C1C;
+    color: #FFFFFF; }
 
 .table-bordered > tbody > tr > td,
 .table-bordered > tbody > tr > th,
