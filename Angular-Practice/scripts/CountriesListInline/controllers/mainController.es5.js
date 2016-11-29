@@ -2,27 +2,27 @@
 
 function mainController($scope, $http, $location) {
 
-    $scope.countriesInlineProperties = "list-inline list-unstyled;";
+    $scope.tableProperties = "table table-bordered";
 
     $scope.CountriesList = [{ countryName: "Germany" }, { countryName: "United Kingdom" }, { countryName: "France" }, { countryName: "Italy" }, { countryName: "Spain" }];
 
-    $scope.goToCountryName = function goToCountryName(country) {
+    $scope.goToCountryGermany = function goToCountryGermany(country) {
         $location.path("/Germany");
     };
 
-    $scope.goToCountryName = function goToCountryName(country) {
+    $scope.goToCountryUK = function goToCountryUK(country) {
         $location.path("/UK");
     };
 
-    $scope.goToCountryName = function goToCountryName(country) {
+    $scope.goToCountryFrance = function goToCountryFrance(country) {
         $location.path("/France");
     };
 
-    $scope.goToCountryName = function goToCountryName(country) {
+    $scope.goToCountryItaly = function goToCountryItaly(country) {
         $location.path("/Italy");
     };
 
-    $scope.goToCountryName = function goToCountryName(country) {
+    $scope.goToCountrySpain = function goToCountrySpain(country) {
         $location.path("/Spain");
     };
 }
