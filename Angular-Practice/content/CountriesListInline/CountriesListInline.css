@@ -3,6 +3,11 @@
   width: 100%;
   margin: 2% auto; }
 
+#message-box,
+#countries-list-inline,
+h3 {
+  text-align: center; }
+
 #message-box {
   max-width: 300px; }
 
@@ -16,7 +21,4 @@
       cursor: pointer;
       background: #FF6A00;
       color: #FFFFFF; }
-
-h3 {
-  text-align: center; }
 
