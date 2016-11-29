@@ -9,4 +9,10 @@ table {
         family: Calibri;
         size: 16px;
     }
+    tbody tr {
+        &:nth-child(3),
+        &:nth-child(5) {
+            background: #f8bc4e;
+        }
+    }
 }
