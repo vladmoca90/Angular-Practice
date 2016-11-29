@@ -27,6 +27,9 @@ h3 {
     }
     td {
         padding: 10px 15px;
+        a {
+            color: $black;
+        }
         &:hover {
             cursor: pointer;
             background: #FF6A00;
