@@ -18,11 +18,11 @@
         $location.path("/bus205");
     }
 
-    $scope.goToBustoDestination = function goTotoDestination(toDestination) {
+    $scope.goToBustoDestination = function goToBustoDestination(toDestination) {
         $location.path("/bus336");
     }
 
-    $scope.goToBusfromDestination = function goTofromDestination(fromDestination) {
+    $scope.goToBusfromDestination = function goToBusfromDestination(fromDestination) {
         $location.path("/bus131");
     }
 
