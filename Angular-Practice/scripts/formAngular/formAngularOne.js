@@ -46,6 +46,11 @@ app.controller("formController", function ($scope) {
            Name: "Hong Kong",
            Selected: false
        },
+       {
+           Id: 8,
+           Name: "Japan/South Korea/China/Taiwan",
+           Selected: false
+       },
     ];
 
 });
