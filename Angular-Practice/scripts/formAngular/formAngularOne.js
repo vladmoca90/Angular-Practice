@@ -51,6 +51,11 @@ app.controller("formController", function ($scope) {
            Name: "Japan/South Korea/China/Taiwan",
            Selected: false
        },
+       {
+           Id: 9,
+           Name: "Commonwealth of Independent Nations",
+           Selected: false
+       }
     ];
 
 });
