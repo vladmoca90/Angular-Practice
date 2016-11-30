@@ -4,6 +4,8 @@
   margin: 2% auto;
   font-family: Calibri;
   font-size: 16px; }
+  table th {
+    background: #EB9815; }
   table tr > th,
   table tr > td {
     text-align: center; }
