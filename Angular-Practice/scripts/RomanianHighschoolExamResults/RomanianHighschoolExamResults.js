@@ -2,6 +2,8 @@
 
 app.controller("examResultsController", function ($scope) {
 
+    $scope.examsTable = "table table-bordered";
+
     $scope.resultsList = [
         {
             name: "Vlad Mocanu",
