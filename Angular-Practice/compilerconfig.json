@@ -54,5 +54,9 @@
   {
     "outputFile": "content/RomanianHighschoolExamResults/RomanianHighschoolExamResults.css",
     "inputFile": "content/RomanianHighschoolExamResults/RomanianHighschoolExamResults.scss"
+  },
+  {
+    "outputFile": "content/airlineTableAngular/airlineTableAngular.css",
+    "inputFile": "content/airlineTableAngular/airlineTableAngular.scss"
   }
 ]
