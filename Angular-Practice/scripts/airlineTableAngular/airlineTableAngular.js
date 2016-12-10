@@ -1,6 +1,6 @@
 ﻿var app = angular.module("airlineTableApp", []);
 
-app.controller("airlineTableCtrl", function () {
+app.controller("airlineTableCtrl", function ($scope) {
 
     $scope.tableProperties = "table table-bordered";
 
