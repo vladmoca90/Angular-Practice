@@ -10,12 +10,12 @@ app.controller("airlineTableCtrl", function () {
     }
 
     $scope.airlineList = [
-        { airlineName: "British Airways", airlineCountry: "United Kingdom", airlineDestinations: "", airlineFleet: ""},
-        { airlineName: "Air France", airlineCountry: "France", airlineDestinations: "", airlineFleet: ""},
-        { airlineName: "Iberia", airlineCountry: "Spain", airlineDestinations: "", airlineFleet: ""},
-        { airlineName: "Air Serbia", airlineCountry: "Serbia", airlineDestinations: "", airlineFleet: ""},
-        { airlineName: "Swissair", airlineCountry: "Switzerland", airlineDestinations: "", airlineFleet: ""}
+        { airlineName: "British Airways", airlineCountry: "United Kingdom", airlineDestinations: "183", airlineFleet: "297"},
+        { airlineName: "Air France", airlineCountry: "France", airlineDestinations: "204", airlineFleet: "235"},
+        { airlineName: "Iberia", airlineCountry: "Spain", airlineDestinations: "89", airlineFleet: "79"},
+        { airlineName: "Air Serbia", airlineCountry: "Serbia", airlineDestinations: "44", airlineFleet: "21"},
+        { airlineName: "Swiss International Air Lines", airlineCountry: "Switzerland", airlineDestinations: "106", airlineFleet: "68"}
 
     ];
 
-});,
+});
