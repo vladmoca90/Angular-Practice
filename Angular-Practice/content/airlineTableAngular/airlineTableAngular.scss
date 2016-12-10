@@ -1,2 +1,7 @@
-﻿body {
+﻿$max-width: 100%;
+
+table {
+    width: $max-width;
+    max-width: 500px;
+    margin: 0 auto;
 }
