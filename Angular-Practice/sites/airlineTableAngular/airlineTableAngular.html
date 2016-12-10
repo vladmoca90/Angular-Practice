@@ -29,12 +29,12 @@
 
     <table ng-controller="airlineTableCtrl">
         <thead>
-            <tr>
+            <tr ng-repeat="headings in headingList">
                 <th></th>
             </tr>
         </thead>
         <tbody>
-            <tr>
+            <tr ng-repeat="airlines in airlineList">
                 <td></td>
             </tr>
         </tbody>
