@@ -100,6 +100,12 @@
     <Content Include="content\airlinesAngularRoute\airlinesAngularRoute.min.css">
       <DependentUpon>airlinesAngularRoute.css</DependentUpon>
     </Content>
+    <Content Include="content\airlineTableAngular\airlineTableAngular.css">
+      <DependentUpon>airlineTableAngular.scss</DependentUpon>
+    </Content>
+    <Content Include="content\airlineTableAngular\airlineTableAngular.min.css">
+      <DependentUpon>airlineTableAngular.css</DependentUpon>
+    </Content>
     <Content Include="content\BucharestBusRoutes\BucharestBusRoutes.css">
       <DependentUpon>BucharestBusRoutes.scss</DependentUpon>
     </Content>
@@ -151,6 +157,7 @@
     <Content Include="content\CountriesListInline\CountriesListInline.scss" />
     <Content Include="content\BucharestBusRoutes\BucharestBusRoutes.scss" />
     <Content Include="content\RomanianHighschoolExamResults\RomanianHighschoolExamResults.scss" />
+    <Content Include="content\airlineTableAngular\airlineTableAngular.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -174,6 +181,7 @@
     <Content Include="scripts\airlinesAngularRoute\templates\airlineFleet.html" />
     <Content Include="scripts\airlinesAngularRoute\templates\airlineName.html" />
     <Content Include="scripts\airlinesAngularRoute\templates\error.html" />
+    <Content Include="scripts\airlineTableAngular\airlineTableAngular.js" />
     <Content Include="scripts\BucharestBusRoutes\config.js" />
     <Content Include="scripts\BucharestBusRoutes\controllers\bus104controller.js" />
     <Content Include="scripts\BucharestBusRoutes\controllers\bus131controller.js" />
@@ -250,6 +258,7 @@
     <Content Include="scripts\RomanianHighschoolExamResults\RomanianHighschoolExamResults.js" />
     <Content Include="scripts\studentTableAngular\studentTableAngular.js" />
     <Content Include="sites\airlinesAngularRoute\airlinesAngularRoute.html" />
+    <Content Include="sites\airlineTableAngular\airlineTableAngular.html" />
     <Content Include="sites\BucharestBusRoutes\BucharestBusRoutes.html" />
     <Content Include="sites\CountriesListInline\CountriesListInline.html" />
     <Content Include="sites\formAngular\formAngularOne.html" />
