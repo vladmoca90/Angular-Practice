@@ -2,6 +2,8 @@
 
 app.controller("airlineTableCtrl", function () {
 
+    $scope.tableProperties = "table table-bordered";
+
     $scope.headingList = {
         headingName: "Name",
         headingCountry: "Country",
@@ -15,7 +17,6 @@ app.controller("airlineTableCtrl", function () {
         { airlineName: "Iberia", airlineCountry: "Spain", airlineDestinations: "89", airlineFleet: "79"},
         { airlineName: "Air Serbia", airlineCountry: "Serbia", airlineDestinations: "44", airlineFleet: "21"},
         { airlineName: "Swiss International Air Lines", airlineCountry: "Switzerland", airlineDestinations: "106", airlineFleet: "68"}
-
     ];
 
 });
