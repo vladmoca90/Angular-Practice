@@ -27,24 +27,26 @@
 </head>
 <body ng-app="airlineTableApp">
 
-    <table ng-controller="airlineTableCtrl" ng-class="tableProperties">
-        <thead>
-            <tr ng-repeat="headings in headingList">
-                <th>{{headings.headingName}}</th>
-                <th>{{headings.headingCountry}}</th>
-                <th>{{headings.headingDestinations}}</th>
-                <th>{{headings.headingFleet}}</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr ng-repeat="airlines in airlineList">
-                <td>{{airlines.airlineName}}</td>
-                <td>{{airlines.airlineCountry}}</td>
-                <td>{{airlines.airlineDestinations}}</td>
-                <td>{{airlines.airlineFleet}}</td>
-            </tr>
-        </tbody>
-    </table>
+    <div ng-controller="airlineTableCtrl">
+        <table ng-class="tableProperties">
+            <thead>
+                <tr ng-repeat="headings in headingList">
+                    <th>{{headings.headingName}}</th>
+                    <th>{{headings.headingCountry}}</th>
+                    <th>{{headings.headingDestinations}}</th>
+                    <th>{{headings.headingFleet}}</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="airlines in airlineList">
+                    <td>{{airlines.airlineName}}</td>
+                    <td>{{airlines.airlineCountry}}</td>
+                    <td>{{airlines.airlineDestinations}}</td>
+                    <td>{{airlines.airlineFleet}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
     <div ng-view></div>
 
