@@ -38,7 +38,10 @@
         </thead>
         <tbody>
             <tr ng-repeat="airlines in airlineList">
-                <td></td>
+                <td>{{airlines.airlineName}}</td>
+                <td>{{airlines.airlineCountry}}</td>
+                <td>{{airlines.airlineDestinations}}</td>
+                <td>{{airlines.airlineFleet}}</td>
             </tr>
         </tbody>
     </table>
