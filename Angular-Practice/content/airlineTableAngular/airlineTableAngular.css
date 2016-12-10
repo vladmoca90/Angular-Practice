@@ -2,4 +2,9 @@
   width: 100%;
   max-width: 500px !important;
   margin: 0 auto; }
+  #airlineTableBox tr > th,
+  #airlineTableBox tr > td {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Trebuchet MS'; }
 
