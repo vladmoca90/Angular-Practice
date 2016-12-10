@@ -1,7 +1,7 @@
 ﻿$max-width: 100%;
 
-table {
+#airlineTableBox {
     width: $max-width;
-    max-width: 500px;
+    max-width: 500px !important;
     margin: 0 auto;
 }

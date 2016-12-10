@@ -1,5 +1,5 @@
-﻿table {
+﻿#airlineTableBox {
   width: 100%;
-  max-width: 500px;
+  max-width: 500px !important;
   margin: 0 auto; }
 
