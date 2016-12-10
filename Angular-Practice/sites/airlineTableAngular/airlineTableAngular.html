@@ -30,7 +30,10 @@
     <table ng-controller="airlineTableCtrl">
         <thead>
             <tr ng-repeat="headings in headingList">
-                <th></th>
+                <th>{{headings.headingName}}</th>
+                <th>{{headings.headingCountry}}</th>
+                <th>{{headings.headingDestinations}}</th>
+                <th>{{headings.headingFleet}}</th>
             </tr>
         </thead>
         <tbody>
