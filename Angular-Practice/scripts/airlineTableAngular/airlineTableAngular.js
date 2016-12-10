@@ -10,10 +10,9 @@ app.controller("airlineTableCtrl", function () {
     ];
 
     $scope.airlineList = [
-        airlineName: "British Airways",
-        airlineCountry: "United Kingdom",
-        airlineDestinations: "",
-        airlineFleet: "",
+        { airlineName: "British Airways", airlineCountry: "United Kingdom", airlineDestinations: "", airlineFleet: ""},
+        { airlineName: "British Airways", airlineCountry: "United Kingdom", airlineDestinations: "", airlineFleet: ""},
+        { airlineName: "British Airways", airlineCountry: "United Kingdom", airlineDestinations: "", airlineFleet: ""}
     ];
 
-});
+});,
