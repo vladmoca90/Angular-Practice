@@ -4,13 +4,6 @@ app.controller("airlineTableCtrl", function ($scope) {
 
     $scope.tableProperties = "table table-bordered";
 
-    $scope.headingList = {
-        headingName: "Name",
-        headingCountry: "Country",
-        headingDestinations: "Destinations",
-        headingFleet: "Fleet"
-    }
-
     $scope.airlineList = [
         { airlineName: "British Airways", airlineCountry: "United Kingdom", airlineDestinations: "183", airlineFleet: "297"},
         { airlineName: "Air France", airlineCountry: "France", airlineDestinations: "204", airlineFleet: "235"},
