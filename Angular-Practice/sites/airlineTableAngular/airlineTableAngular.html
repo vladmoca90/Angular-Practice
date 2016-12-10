@@ -28,7 +28,7 @@
 <body ng-app="airlineTableApp">
 
     <div role="main" ng-controller="airlineTableCtrl">
-        <table role="presentation" ng-class="tableProperties">
+        <table role="presentation" id="airlineTableBox" ng-class="tableProperties">
             <thead>
                 <tr ng-repeat="headings in headingList">
                     <th>{{headings.headingName}}</th>
