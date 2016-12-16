@@ -1,11 +1,5 @@
 ﻿function mainController($scope, $http, $location) {
 
-    $scope.BusesListHeadings = {
-        headingName: "Bus Number",
-        headingName: "Origin",
-        headingName: "Destination"
-    }
-
     $scope.BusesList = [
         { name: "104", toDestination: "Piata Operei", fromDestination: "Stadion Lia Manoliu" },
         { name: "131", toDestination: "Piata Romana", fromDestination: "Complex Comercial Baneasa" },
