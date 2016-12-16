@@ -1,7 +1,7 @@
 ﻿#airlineTableBox {
   width: 100%;
   max-width: 600px !important;
-  margin: 0 auto; }
+  margin: 3% auto; }
   #airlineTableBox tr > th,
   #airlineTableBox tr > td {
     text-align: center;
