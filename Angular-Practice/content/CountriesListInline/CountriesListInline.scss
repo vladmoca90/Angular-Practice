@@ -25,7 +25,7 @@ h3 {
         &:hover {
             cursor: pointer;
             background: #FF6A00;
-            color: $white;
-        }
+            color: $white !important;
+       }
     }
 }

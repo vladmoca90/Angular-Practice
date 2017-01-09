@@ -18,5 +18,5 @@ h3 {
     #countries-list-inline td:hover {
       cursor: pointer;
       background: #FF6A00;
-      color: #FFFFFF; }
+      color: #FFFFFF !important; }
 
