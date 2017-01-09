@@ -10,23 +10,23 @@
         { countryName: "Spain" }
     ];
 
-    $scope.goToCountryGermany = function goToCountryGermany(country) {
+    $scope.goToCountryGermany = function goToCountryGermany(germany) {
         $location.path("/Germany");
     }
 
-    $scope.goToCountryUK = function goToCountryUK(country) {
+    $scope.goToCountryUK = function goToCountryUK(uk) {
         $location.path("/UK");
     }
 
-    $scope.goToCountryFrance = function goToCountryFrance(country) {
+    $scope.goToCountryFrance = function goToCountryFrance(france) {
         $location.path("/France");
     }
 
-    $scope.goToCountryItaly = function goToCountryItaly(country) {
+    $scope.goToCountryItaly = function goToCountryItaly(italy) {
         $location.path("/Italy");
     }
 
-    $scope.goToCountrySpain = function goToCountrySpain(country) {
+    $scope.goToCountrySpain = function goToCountrySpain(spain) {
         $location.path("/Spain");
     }
 
