@@ -44,9 +44,6 @@
 <body ng-app="countriesApp">
 
 <div ng-controller="mainController">
-    <div id="message-box" class="alert alert-success">
-        <p>Click from top to bottom!</p>
-    </div>
     <table role="presentation" id="countries-list-inline" ng-class="tableProperties">
         <tr>
             <td ng-repeat="countries in CountriesList"><a role="link" href="#">{{countries.countryName}}</a></td>

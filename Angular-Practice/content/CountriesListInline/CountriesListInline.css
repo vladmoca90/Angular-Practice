@@ -1,17 +1,10 @@
-﻿#message-box,
-#countries-list-inline {
+﻿#countries-list-inline {
   width: 100%;
   margin: 2% auto; }
 
-#message-box,
 #countries-list-inline,
 h3 {
   text-align: center; }
-
-#message-box {
-  max-width: 300px;
-  font-weight: bold;
-  font-family: Verdana; }
 
 #countries-list-inline {
   max-width: 500px;

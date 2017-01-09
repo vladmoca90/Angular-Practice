@@ -2,22 +2,13 @@
 $white: #FFFFFF;
 $black: #000000;
 
-#message-box,
 #countries-list-inline {
     width: $max-width;
     margin: 2% auto;
 }
-#message-box,
 #countries-list-inline,
 h3 {
     text-align: center;
-}
-#message-box {
-    max-width: 300px;
-    font: {
-        weight: bold;
-        family: Verdana;
-    }
 }
 #countries-list-inline {
     max-width: 500px;
