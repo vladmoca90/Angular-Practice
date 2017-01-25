@@ -6,7 +6,8 @@ app.controller("citiesCtrl", function ($scope) {
 
     $scope.tableStyles = {
         "width": "50%",
-        "margin": "3% auto"
+        "margin": "3% auto",
+        "text-align": "center"
     }
 
     $scope.parisStyle = {
