@@ -10,6 +10,10 @@ app.controller("citiesCtrl", function ($scope) {
         "font-weight": "bold"
     }
 
+    $scope.tableStyles = {
+
+    }
+
     $scope.londonStyle = {
         "font-style": "italic",
         "color": "green"
