@@ -4,15 +4,15 @@ app.controller("citiesCtrl", function ($scope) {
 
     $scope.tableType = "table table-bordered";
 
+    $scope.tableStyles = {
+        "width": "50%",
+        "margin": "3% auto"
+    }
+
     $scope.parisStyle = {
         "font-size": "18px",
         "color": "red",
         "font-weight": "bold"
-    }
-
-    $scope.tableStyles = {
-        "width": "50%",
-        "margin": "3% auto"
     }
 
     $scope.londonStyle = {
