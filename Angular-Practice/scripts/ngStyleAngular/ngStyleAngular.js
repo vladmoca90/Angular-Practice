@@ -2,6 +2,10 @@
 
 app.controller("citiesCtrl", function ($scope) {
 
+    $scope.tableDivisions = {
+        "padding": "10px"
+    }
+
     $scope.parisStyle = {
         "font-size": "18px",
         "color": "red",
@@ -12,6 +16,10 @@ app.controller("citiesCtrl", function ($scope) {
         "font-style": "italic",
         "color": "green",
         "letter-spacing": "3px"
+    }
+
+    $scope.newYorkStyle = {
+
     }
 
 });
