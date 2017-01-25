@@ -29,7 +29,8 @@ app.controller("citiesCtrl", function ($scope) {
 
     $scope.madridStyle = {
         "color": "purple",
-        "letter-spacing": "3px"
+        "letter-spacing": "3px",
+        "font-family": "Andalus"
     }
 
 });
