@@ -8,4 +8,10 @@ app.controller("citiesCtrl", function ($scope) {
         "font-weight": "bold"
     }
 
+    $scope.londonStyle = {
+        "font-style": "italic",
+        "color": "green",
+        "letter-spacing": "3px"
+    }
+
 });
