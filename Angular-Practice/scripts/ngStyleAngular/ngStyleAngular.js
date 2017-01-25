@@ -14,7 +14,11 @@ app.controller("citiesCtrl", function ($scope) {
     }
 
     $scope.newYorkStyle = {
+        "color": "orange"
+    }
 
+    $scope.madridStyle = {
+        "color": "purple"
     }
 
 });
