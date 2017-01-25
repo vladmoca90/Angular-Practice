@@ -2,7 +2,7 @@
 
 app.controller("citiesCtrl", function ($scope) {
 
-    $scope.tableProperties = "table table-bordered";
+    $scope.tableType = "table table-bordered";
 
     $scope.parisStyle = {
         "font-size": "18px",
