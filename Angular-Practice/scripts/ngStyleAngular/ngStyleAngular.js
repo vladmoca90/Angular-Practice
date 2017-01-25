@@ -11,7 +11,7 @@ app.controller("citiesCtrl", function ($scope) {
     }
 
     $scope.tableStyles = {
-
+        "width": "50%"
     }
 
     $scope.londonStyle = {
