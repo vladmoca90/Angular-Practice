@@ -18,7 +18,8 @@ app.controller("citiesCtrl", function ($scope) {
 
     $scope.londonStyle = {
         "font-style": "italic",
-        "color": "green"
+        "color": "green",
+        "font-size": "18px"
     }
 
     $scope.newYorkStyle = {
