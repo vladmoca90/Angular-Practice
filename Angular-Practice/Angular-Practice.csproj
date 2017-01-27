@@ -197,63 +197,7 @@
     <Content Include="scripts\BucharestBusRoutes\templates\bus301.html" />
     <Content Include="scripts\BucharestBusRoutes\templates\bus336.html" />
     <Content Include="scripts\BucharestBusRoutes\templates\error.html" />
-    <Content Include="scripts\CountriesListInline\config.js" />
-    <Content Include="scripts\CountriesListInline\controllers\errorController.es5.js">
-      <DependentUpon>errorController.js</DependentUpon>
-    </Content>
-    <Content Include="scripts\CountriesListInline\controllers\errorController.es5.min.js">
-      <DependentUpon>errorController.es5.js</DependentUpon>
-    </Content>
-    <Content Include="scripts\CountriesListInline\controllers\errorController.js" />
-    <Content Include="scripts\CountriesListInline\controllers\FranceController.es5.js">
-      <DependentUpon>FranceController.js</DependentUpon>
-    </Content>
-    <Content Include="scripts\CountriesListInline\controllers\FranceController.es5.min.js">
-      <DependentUpon>FranceController.es5.js</DependentUpon>
-    </Content>
-    <Content Include="scripts\CountriesListInline\controllers\FranceController.js" />
-    <Content Include="scripts\CountriesListInline\controllers\GermanyController.es5.js">
-      <DependentUpon>GermanyController.js</DependentUpon>
-    </Content>
-    <Content Include="scripts\CountriesListInline\controllers\GermanyController.es5.min.js">
-      <DependentUpon>GermanyController.es5.js</DependentUpon>
-    </Content>
-    <Content Include="scripts\CountriesListInline\controllers\GermanyController.js" />
-    <Content Include="scripts\CountriesListInline\controllers\ItalyController.es5.js">
-      <DependentUpon>ItalyController.js</DependentUpon>
-    </Content>
-    <Content Include="scripts\CountriesListInline\controllers\ItalyController.es5.min.js">
-      <DependentUpon>ItalyController.es5.js</DependentUpon>
-    </Content>
-    <Content Include="scripts\CountriesListInline\controllers\ItalyController.js" />
-    <Content Include="scripts\CountriesListInline\controllers\mainController.es5.js">
-      <DependentUpon>mainController.js</DependentUpon>
-    </Content>
-    <Content Include="scripts\CountriesListInline\controllers\mainController.es5.min.js">
-      <DependentUpon>mainController.es5.js</DependentUpon>
-    </Content>
-    <Content Include="scripts\CountriesListInline\controllers\mainController.js" />
-    <Content Include="scripts\CountriesListInline\controllers\SpainController.es5.js">
-      <DependentUpon>SpainController.js</DependentUpon>
-    </Content>
-    <Content Include="scripts\CountriesListInline\controllers\SpainController.es5.min.js">
-      <DependentUpon>SpainController.es5.js</DependentUpon>
-    </Content>
-    <Content Include="scripts\CountriesListInline\controllers\SpainController.js" />
-    <Content Include="scripts\CountriesListInline\controllers\UKController.es5.js">
-      <DependentUpon>UKController.js</DependentUpon>
-    </Content>
-    <Content Include="scripts\CountriesListInline\controllers\UKController.es5.min.js">
-      <DependentUpon>UKController.es5.js</DependentUpon>
-    </Content>
-    <Content Include="scripts\CountriesListInline\controllers\UKController.js" />
-    <Content Include="scripts\CountriesListInline\main.js" />
-    <Content Include="scripts\CountriesListInline\templates\error.html" />
-    <Content Include="scripts\CountriesListInline\templates\France.html" />
-    <Content Include="scripts\CountriesListInline\templates\Germany.html" />
-    <Content Include="scripts\CountriesListInline\templates\Italy.html" />
-    <Content Include="scripts\CountriesListInline\templates\Spain.html" />
-    <Content Include="scripts\CountriesListInline\templates\UK.html" />
+    <Content Include="scripts\CountriesListInline\countriesListInline.js" />
     <Content Include="scripts\formAngular\formAngularOne.js" />
     <Content Include="scripts\ngStyleAngular\ngStyleAngular.js" />
     <Content Include="scripts\RomanianHighschoolExamResults\RomanianHighschoolExamResults.js" />
