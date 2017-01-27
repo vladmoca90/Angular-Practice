@@ -1,6 +1,6 @@
 ﻿var app = angular.module("countriesApp", []);
 
-function mainController($scope, $http, $location) {
+app.controller = (["countriesController"]) {
 
     $scope.tableProperties = "table table-bordered"
 
