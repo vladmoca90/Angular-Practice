@@ -11,12 +11,7 @@ h3 {
   font-size: 18px;
   font-family: Ubuntu; }
   #countries-list-inline td {
-    padding: 10px 15px; }
-    #countries-list-inline td a {
-      color: #000000;
-      text-decoration: none; }
-    #countries-list-inline td:hover {
-      cursor: pointer;
-      background: #FF6A00;
-      color: #FFFFFF !important; }
+    padding: 10px 15px;
+    color: #000000;
+    text-decoration: none; }
 
