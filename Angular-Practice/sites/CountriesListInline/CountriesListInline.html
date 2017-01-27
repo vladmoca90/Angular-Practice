@@ -30,7 +30,7 @@
 <div ng-controller="countriesController">
     <table role="presentation" ng-style="countriesListInlineStyles" ng-class="tableProperties">
         <tr>
-            <td ng-repeat="countries in CountriesList">{{countries.countryName}}</td>
+            <td ng-repeat="countries in CountriesList" ng-style="countriesTdStyles">{{countries.countryName}}</td>
         </tr>
     </table>
 </div>
