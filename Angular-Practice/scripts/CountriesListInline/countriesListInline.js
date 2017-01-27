@@ -1,6 +1,6 @@
 ﻿var app = angular.module("countriesApp", []);
 
-app.controller = (["countriesController"]) {
+app.controller = (["countriesController"], function () {
 
     $scope.tableProperties = "table table-bordered"
 
@@ -12,4 +12,4 @@ app.controller = (["countriesController"]) {
         { countryName: "Spain" }
     ];
 
-}
+});
