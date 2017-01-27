@@ -28,7 +28,7 @@
 <body ng-app="countriesApp">
 
 <div ng-controller="countriesController">
-    <table role="presentation" ng-style="countries-list-inline" ng-class="tableProperties">
+    <table role="presentation" ng-style="countriesListInlineStyles" ng-class="tableProperties">
         <tr>
             <td ng-repeat="countries in CountriesList">{{countries.countryName}}</td>
         </tr>
