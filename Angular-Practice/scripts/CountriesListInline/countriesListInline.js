@@ -1,4 +1,6 @@
-﻿function mainController($scope, $http, $location) {
+﻿var app = angular.module("countriesApp", []);
+
+function mainController($scope, $http, $location) {
 
     $scope.tableProperties = "table table-bordered"
 
@@ -11,5 +13,3 @@
     ];
 
 }
-
-mainController.$inject = ["$scope", "$http", "$location"];
