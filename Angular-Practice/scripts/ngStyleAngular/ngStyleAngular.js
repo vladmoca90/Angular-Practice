@@ -25,7 +25,8 @@ app.controller("citiesCtrl", function ($scope) {
     $scope.newYorkStyle = {
         "color": "orange",
         "font-family": "Verdana",
-        "font-size": "15px"
+        "font-size": "15px",
+        "font-weight": "500"
     }
 
     $scope.madridStyle = {
