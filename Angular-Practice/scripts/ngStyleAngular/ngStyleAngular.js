@@ -4,6 +4,11 @@ app.controller("citiesCtrl", function ($scope) {
 
     $scope.tableType = "table table-bordered";
 
+    $scope.citiesBackground = {
+        "background": "#A1A1A1",
+        "color": "#FFFFFF"
+    }
+
     $scope.tableStyles = {
         "width": "50%",
         "margin": "3% auto",
