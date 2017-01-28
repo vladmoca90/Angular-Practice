@@ -7,7 +7,8 @@ app.controller("countriesController", function ($scope) {
     $scope.countriesListInlineStyles = {
         "max-width": "500px",
         "font-size": "18px",
-        "font-family": "Ubuntu"
+        "font-family": "Ubuntu",
+        "margin": "2% auto"
     }
 
     $scope.countriesTdStyles = {
