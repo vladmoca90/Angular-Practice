@@ -6,7 +6,8 @@ app.controller("citiesCtrl", function ($scope) {
 
     $scope.citiesBackground = {
         "background": "#A1A1A1",
-        "color": "#FFFFFF"
+        "color": "#FFFFFF",
+        "font-weight": "bold"
     }
 
     $scope.tableStyles = {
