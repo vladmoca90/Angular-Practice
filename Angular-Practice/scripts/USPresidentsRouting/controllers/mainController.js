@@ -1,10 +1,10 @@
 ﻿function mainController($scope, $http) {
 
     $scope.presidentsList = {
-        name: "Barack Obama",
-        name: "George W. Bush",
-        name: "Bill Clinton",
-        name: "Ronald Raegan"
+        presidentName: "Barack Obama",
+        presidentName: "George W. Bush",
+        presidentName: "Bill Clinton",
+        presidentName: "Ronald Raegan"
     }
 
 }
