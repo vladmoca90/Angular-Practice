@@ -25,11 +25,8 @@
 </head>
 <body ng-app="USPresidentsApp">
 
-    <ul class="ul-md">
-        <li><a href="#">George W. Bush</a></li>
-        <li><a href="#">Barack Obama</a></li>
-        <li><a href="#">Bill Clinton</a></li>
-        <li><a href="#">Ronald Raegan</a></li>
+    <ul class="ul-md" ng-repeat="presidents in presidentsList">
+        <li><a href="#">{{presidents.presidentName}}</a></li>
     </ul>
 
 </body>
