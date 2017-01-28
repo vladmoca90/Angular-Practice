@@ -202,6 +202,17 @@
     <Content Include="scripts\ngStyleAngular\ngStyleAngular.js" />
     <Content Include="scripts\RomanianHighschoolExamResults\RomanianHighschoolExamResults.js" />
     <Content Include="scripts\studentTableAngular\studentTableAngular.js" />
+    <Content Include="scripts\USPresidentsRouting\config.js" />
+    <Content Include="scripts\USPresidentsRouting\controllers\BushController.js" />
+    <Content Include="scripts\USPresidentsRouting\controllers\ClintonController.js" />
+    <Content Include="scripts\USPresidentsRouting\controllers\mainController.js" />
+    <Content Include="scripts\USPresidentsRouting\controllers\ObamaController.js" />
+    <Content Include="scripts\USPresidentsRouting\controllers\ReaganController.js" />
+    <Content Include="scripts\USPresidentsRouting\main.js" />
+    <Content Include="scripts\USPresidentsRouting\templates\Bush.html" />
+    <Content Include="scripts\USPresidentsRouting\templates\Clinton.html" />
+    <Content Include="scripts\USPresidentsRouting\templates\Obama.html" />
+    <Content Include="scripts\USPresidentsRouting\templates\Raegan.html" />
     <Content Include="sites\airlinesAngularRoute\airlinesAngularRoute.html" />
     <Content Include="sites\airlineTableAngular\airlineTableAngular.html" />
     <Content Include="sites\BucharestBusRoutes\BucharestBusRoutes.html" />
@@ -210,6 +221,7 @@
     <Content Include="sites\ngStyleAngular\ngStyleAngular.html" />
     <Content Include="sites\RomanianHighschoolExamResults\RomanianHighschoolExamResults.html" />
     <Content Include="sites\studentTableAngular\studentTableAngular.html" />
+    <Content Include="sites\USPresidentsRouting\USPresidentsRouting.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
