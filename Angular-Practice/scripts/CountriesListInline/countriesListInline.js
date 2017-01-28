@@ -10,6 +10,12 @@ app.controller("countriesController", function ($scope) {
         "font-family": "Ubuntu"
     }
 
+    $scope.countriesTdStyles = {
+        "padding": "10px 15px",
+        "color": "#000000",
+        "text-decoration": "none"
+    }
+
     $scope.CountriesList = [
         { countryName: "Germany" },
         { countryName: "United Kingdom" },
