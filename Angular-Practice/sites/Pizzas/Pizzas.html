@@ -24,6 +24,8 @@
 
     <link rel="stylesheet" type="text/css" href="../../content/RomanianHighschoolExamResults/RomanianHighschoolExamResults.css" />
 
+    <script src="../../scripts/Pizzas/controllers/pizzasController.js"></script>
+
     <script src="../../scripts/Pizzas/Pizzas.js"></script>
 
 </head>
@@ -34,7 +36,7 @@
             <td>{{pizza.name}}</td>
             <td>{{pizza.smallPrice}}</td>
             <td>{{pizza.largePrice}}</td>
-            <td><button>-</button><span></span><button>+</button></td>
+            <td><button>-</button><span>{{pizza.count}}</span><button>+</button></td>
         </tr>
     </table>
 
