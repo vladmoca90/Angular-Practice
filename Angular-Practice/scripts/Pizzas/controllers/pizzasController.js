@@ -2,12 +2,21 @@
 
     $scope.pizzas = [
         {
+            name: "Margherita",
+            smallPrice: 5,
+            largePrice: 6.40,
             count: 0
         },
         {
+            name: "Vegetarian",
+            smallPrice: 5.30,
+            largePrice: 7.30,
             count: 0
         },
         {
+            name: "Hot Vegetarian",
+            smallPrice: 5.70,
+            largePrice: 7.80,
             count: 0
         }
     ];
