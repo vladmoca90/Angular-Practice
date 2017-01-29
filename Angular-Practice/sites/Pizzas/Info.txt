@@ -2,6 +2,6 @@
 
 
 
- - a list of products in the basket, that is updated when I click increase or decrease
+ - a list of products in the basket (an array), that is updated when I click increase or decrease
 
  - when increase or decrease, the list with the products will be updated

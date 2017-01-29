@@ -18,6 +18,18 @@
             smallPrice: 5.70,
             largePrice: 7.80,
             count: 0
+        },
+        {
+            name: "Hawaiian",
+            smallPrice: 5.60,
+            largePrice: 7.30,
+            count: 0
+        },
+        {
+            name: "Chicken Tikka",
+            smallPrice: 5.50,
+            largePrice: 7.30,
+            count: 0
         }
     ];
 
