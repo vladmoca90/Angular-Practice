@@ -207,7 +207,7 @@
     <Content Include="scripts\USPresidentsRouting\controllers\ClintonController.js" />
     <Content Include="scripts\USPresidentsRouting\controllers\mainController.js" />
     <Content Include="scripts\USPresidentsRouting\controllers\ObamaController.js" />
-    <Content Include="scripts\USPresidentsRouting\controllers\ReaganController.js" />
+    <Content Include="scripts\USPresidentsRouting\controllers\RaeganController.js" />
     <Content Include="scripts\USPresidentsRouting\main.js" />
     <Content Include="scripts\USPresidentsRouting\templates\Bush.html" />
     <Content Include="scripts\USPresidentsRouting\templates\Clinton.html" />
