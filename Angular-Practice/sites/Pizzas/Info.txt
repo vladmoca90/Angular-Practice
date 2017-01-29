@@ -1,1 +1,7 @@
 ﻿ - each item will have a name, a list of ingredients, price and count
+
+
+
+ - a list of products in the basket, that is updated when I click increase or decrease
+
+ - when increase or decrease, the list with the products will be updated
