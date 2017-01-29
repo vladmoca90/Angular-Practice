@@ -39,8 +39,6 @@
         }
         pizza.count--;
 
-        $scope.pizza
-
         // remove pizza from basket or decrease count if more than 1
     }
 
