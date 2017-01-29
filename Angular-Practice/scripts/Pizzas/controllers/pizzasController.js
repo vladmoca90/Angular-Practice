@@ -39,6 +39,8 @@
         }
         pizza.count--;
 
+        $scope.pizza
+
         // remove pizza from basket or decrease count if more than 1
     }
 
@@ -48,10 +50,6 @@
         // addpizza to basket, but first check if it's already there
     }
 
-    $scope.basket = {
-        items: [],
-        price: 0
-    }
 }
 
 pizzasController.$inject = ["$scope"];
