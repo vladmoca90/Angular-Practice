@@ -5,4 +5,5 @@ app.controller("mainController", mainController)
    .controller("ObamaController", ObamaController)
    .controller("ClintonController", ClintonController)
    .controller("RaeganController", RaeganController)
+   .controller("errorController", errorController)
    .config(routeSetup);
