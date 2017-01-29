@@ -148,10 +148,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="content\formAngular\formAngularOne.scss" />
-    <None Include="compilerconfig.json" />
-    <None Include="compilerconfig.json.defaults">
-      <DependentUpon>compilerconfig.json</DependentUpon>
-    </None>
     <Content Include="content\airlinesAngularRoute\airlinesAngularRoute.scss" />
     <Content Include="content\studentTableAngular\studentTableAngular.scss" />
     <Content Include="content\CountriesListInline\CountriesListInline.scss" />
@@ -200,6 +196,8 @@
     <Content Include="scripts\CountriesListInline\countriesListInline.js" />
     <Content Include="scripts\formAngular\formAngularOne.js" />
     <Content Include="scripts\ngStyleAngular\ngStyleAngular.js" />
+    <Content Include="scripts\Pizzas\controllers\pizzasController.js" />
+    <Content Include="scripts\Pizzas\Pizzas.js" />
     <Content Include="scripts\RomanianHighschoolExamResults\RomanianHighschoolExamResults.js" />
     <Content Include="scripts\studentTableAngular\studentTableAngular.js" />
     <Content Include="scripts\USPresidentsRouting\config.js" />
@@ -221,6 +219,8 @@
     <Content Include="sites\CountriesListInline\CountriesListInline.html" />
     <Content Include="sites\formAngular\formAngularOne.html" />
     <Content Include="sites\ngStyleAngular\ngStyleAngular.html" />
+    <Content Include="sites\Pizzas\Info.txt" />
+    <Content Include="sites\Pizzas\Pizzas.html" />
     <Content Include="sites\RomanianHighschoolExamResults\RomanianHighschoolExamResults.html" />
     <Content Include="sites\studentTableAngular\studentTableAngular.html" />
     <Content Include="sites\USPresidentsRouting\USPresidentsRouting.html" />
