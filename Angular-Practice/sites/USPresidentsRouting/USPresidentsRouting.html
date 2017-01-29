@@ -39,18 +39,22 @@
 </head>
 <body ng-app="USPresidentsApp">
 
-    <div class="panel panel-default" ng-controller="mainController">
-        <div class="panel-heading">
-            <h2 class="panel-title" role="heading">List of US Presidents</h2>
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+        <div class="panel panel-default" ng-controller="mainController">
+            <div class="panel-heading">
+                <h2 class="panel-title" role="heading">List of US Presidents</h2>
+            </div>
+            <div class="panel-body">
+                <ul role="list" class="ul-lg">
+                    <li ng-repeat="presidents in presidentsList">
+                        <a role="link" href="#">{{presidents.presidentName}}</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="panel-body">
-            <ul role="list" class="ul-lg">
-                <li ng-repeat="presidents in presidentsList">
-                    <a role="link" href="#">{{presidents.presidentName}}</a>
-                </li>
-            </ul>
-        </div>
-    </div> 
+    </div>
+    <div class="col-sm-4"></div>
 
     <div ng-view></div>
 
