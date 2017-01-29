@@ -36,7 +36,7 @@
             <td>{{pizza.name}}</td>
             <td>{{pizza.smallPrice}}</td>
             <td>{{pizza.largePrice}}</td>
-            <td><button>-</button><span>{{pizza.count}}</span><button>+</button></td>
+            <td><button ng-click="decrease(pizza)">-</button><span>{{pizza.count}}</span><button ng-click="increase(pizza)">+</button></td>
         </tr>
     </table>
 
