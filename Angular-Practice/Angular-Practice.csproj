@@ -203,6 +203,7 @@
     <Content Include="scripts\RomanianHighschoolExamResults\RomanianHighschoolExamResults.js" />
     <Content Include="scripts\studentTableAngular\studentTableAngular.js" />
     <Content Include="scripts\USPresidentsRouting\config.js" />
+    <Content Include="scripts\USPresidentsRouting\controllers\errorController.js" />
     <Content Include="scripts\USPresidentsRouting\controllers\BushController.js" />
     <Content Include="scripts\USPresidentsRouting\controllers\ClintonController.js" />
     <Content Include="scripts\USPresidentsRouting\controllers\mainController.js" />
@@ -211,6 +212,7 @@
     <Content Include="scripts\USPresidentsRouting\main.js" />
     <Content Include="scripts\USPresidentsRouting\templates\Bush.html" />
     <Content Include="scripts\USPresidentsRouting\templates\Clinton.html" />
+    <Content Include="scripts\USPresidentsRouting\templates\error.html" />
     <Content Include="scripts\USPresidentsRouting\templates\Obama.html" />
     <Content Include="scripts\USPresidentsRouting\templates\Raegan.html" />
     <Content Include="sites\airlinesAngularRoute\airlinesAngularRoute.html" />
