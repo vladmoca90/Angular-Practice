@@ -1,6 +1,6 @@
 ﻿function mainController($scope, $http) {
 
-    $scope.presidentsList = [
+    $scope.presidents = [
         { presidentName: "Barack Obama" },
         { presidentName: "George W. Bush" },
         { presidentName: "Bill Clinton" },
