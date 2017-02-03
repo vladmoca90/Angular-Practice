@@ -2,7 +2,7 @@
 
     $scope.borderedTable = "table table-bordered";
 
-    $scope.airlinesList = [
+    $scope.airlines = [
         { airlineName: "LOT Polish", airlineCountry: "Poland", airlineFleet: "45", airlineDestinations: "60" },
         { airlineName: "Brussels Airlines", airlineCountry: "Belgium", airlineFleet: "50", airlineDestinations: "76" },
         { airlineName: "Thai Airways", airlineCountry: "Thailand", airlineFleet: "94", airlineDestinations: "80" },

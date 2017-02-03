@@ -43,7 +43,7 @@
 
 <div id="box" ng-controller="mainController">
     <table role="presentation" ng-class="borderedTable">
-        <tr ng-repeat="airline in airlinesList">
+        <tr ng-repeat="airline in airlines">
             <td><a ng-click="goToAirlineName(name)">{{airline.airlineName}}</a></td>
             <td><a ng-click="goToAirlineCountry(country)">{{airline.airlineCountry}}</a></td>
             <td><a ng-click="goToAirlineFleet(fleet)">{{airline.airlineFleet}}</a></td>
