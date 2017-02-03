@@ -2,7 +2,7 @@
 
     $scope.borderedTable = "table table-bordered";
 
-    $scope.studentsList = [
+    $scope.students = [
         {
             studentName: "Adnan Menderes",
             countryFlag: "../../images/studentTableAngular/turkey.png",
