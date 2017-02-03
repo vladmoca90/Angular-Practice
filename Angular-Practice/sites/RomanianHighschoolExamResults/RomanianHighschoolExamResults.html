@@ -24,6 +24,8 @@
 
     <link rel="stylesheet" type="text/css" href="../../content/RomanianHighschoolExamResults/RomanianHighschoolExamResults.css" />
 
+    <script src="../../scripts/RomanianHighschoolExamResults/RomanianHighschoolExamResultsController/RomanianHighschoolExamResultsController.js"></script>
+
     <script src="../../scripts/RomanianHighschoolExamResults/RomanianHighschoolExamResults.js"></script>
 
 </head>
@@ -41,13 +43,13 @@
             </tr>
         </thead>
         <tbody>
-            <tr ng-repeat="results in resultsList">
-                <td class="text-left">{{results.name}}</td>
-                <td>{{results.romanianSubject}}</td>
-                <td>{{results.mathsSubject}}</td>
-                <td>{{results.thirdSubjectName}}</td>
-                <td>{{results.thirdSubjectResult}}</td>
-                <td>{{results.status}}</td>
+            <tr ng-repeat="result in results">
+                <td class="text-left">{{result.name}}</td>
+                <td>{{result.romanianSubject}}</td>
+                <td>{{result.mathsSubject}}</td>
+                <td>{{result.thirdSubjectName}}</td>
+                <td>{{result.thirdSubjectResult}}</td>
+                <td>{{result.status}}</td>
             </tr>
         </tbody>
     </table>
