@@ -199,7 +199,9 @@
     <Content Include="scripts\Pizzas\controllers\pizzasController.js" />
     <Content Include="scripts\Pizzas\Pizzas.js" />
     <Content Include="scripts\RomanianHighschoolExamResults\RomanianHighschoolExamResults.js" />
+    <Content Include="scripts\RomanianHighschoolExamResults\RomanianHighschoolExamResultsController\RomanianHighschoolExamResultsController.js" />
     <Content Include="scripts\studentTableAngular\studentTableAngular.js" />
+    <Content Include="scripts\studentTableAngular\studentTableAngularController\studentTableAngularController.js" />
     <Content Include="scripts\USPresidentsRouting\config.js" />
     <Content Include="scripts\USPresidentsRouting\controllers\errorController.js" />
     <Content Include="scripts\USPresidentsRouting\controllers\BushController.js" />
