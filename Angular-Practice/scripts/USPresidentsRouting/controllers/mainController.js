@@ -7,6 +7,10 @@
         { presidentName: "Ronald Raegan"}
     ];
 
+    $scope.mainBoxStyle = {
+        "height": "400px"
+    }
+
 }
 
 mainController.$inject = ["$scope", "$http"];
