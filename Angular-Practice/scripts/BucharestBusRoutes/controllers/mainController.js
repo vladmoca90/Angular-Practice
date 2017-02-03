@@ -1,6 +1,6 @@
 ﻿function mainController($scope, $http, $location) {
 
-    $scope.BusesList = [
+    $scope.buses = [
         { name: "104", toDestination: "Piata Operei", fromDestination: "Stadion Lia Manoliu" },
         { name: "131", toDestination: "Piata Romana", fromDestination: "Complex Comercial Baneasa" },
         { name: "205", toDestination: "Gara de Nord", fromDestination: "Bioterra" },
