@@ -19,4 +19,12 @@
         "margin-top": "3%"
     }
 
+    $scope.pressAndShow = function pressAndShow(appear) {
+
+    }
+
+    $scope.pressAndHide = function pressAndHide(dissappear) {
+
+    }
+
 }
