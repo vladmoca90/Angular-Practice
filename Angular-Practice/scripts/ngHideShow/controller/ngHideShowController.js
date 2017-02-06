@@ -14,4 +14,9 @@
         "margin-top": "2%"
     }
 
+    $scope.buttonBox = {
+        "width": "120px",
+        "margin-top": "3%"
+    }
+
 }
