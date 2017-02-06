@@ -10,5 +10,3 @@
     }
 
 }
-
-mainCtrl.$inject = ["$scope"];
