@@ -198,7 +198,7 @@
     <Content Include="scripts\formAngular\controller\formAngularOneController.js" />
     <Content Include="scripts\formAngular\formAngularOne.js" />
     <Content Include="scripts\ngHideShow\ngHideShowApp.js" />
-    <Content Include="scripts\ngHideShow\ngHideShowController.js" />
+    <Content Include="scripts\ngHideShow\controller\ngHideShowController.js" />
     <Content Include="scripts\ngStyleAngular\controller\ngStyleController.js" />
     <Content Include="scripts\ngStyleAngular\ngStyleAngular.js" />
     <Content Include="scripts\Pizzas\controllers\pizzasController.js" />
