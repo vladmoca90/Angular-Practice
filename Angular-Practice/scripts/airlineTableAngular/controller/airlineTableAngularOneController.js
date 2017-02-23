@@ -12,5 +12,5 @@
 
 }
 
-airlineTableController.$inject = ["$scope"];
+airlineTableOneController.$inject = ["$scope"];
 

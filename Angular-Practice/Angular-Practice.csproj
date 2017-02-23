@@ -177,7 +177,10 @@
     <Content Include="scripts\airlinesAngularRoute\templates\airlineFleet.html" />
     <Content Include="scripts\airlinesAngularRoute\templates\airlineName.html" />
     <Content Include="scripts\airlinesAngularRoute\templates\error.html" />
-    <Content Include="scripts\airlineTableAngular\airlineTableAngular.js" />
+    <Content Include="scripts\airlineTableAngular\airlineTableAngularOne.js" />
+    <Content Include="scripts\airlineTableAngular\airlineTableAngularTwo.js" />
+    <Content Include="scripts\airlineTableAngular\controller\airlineTableAngularOneController.js" />
+    <Content Include="scripts\airlineTableAngular\controller\airlineTableAngularTwoController.js" />
     <Content Include="scripts\BucharestBusRoutes\config.js" />
     <Content Include="scripts\BucharestBusRoutes\controllers\bus104controller.js" />
     <Content Include="scripts\BucharestBusRoutes\controllers\bus131controller.js" />
@@ -221,7 +224,8 @@
     <Content Include="scripts\USPresidentsRouting\templates\Obama.html" />
     <Content Include="scripts\USPresidentsRouting\templates\Raegan.html" />
     <Content Include="sites\airlinesAngularRoute\airlinesAngularRoute.html" />
-    <Content Include="sites\airlineTableAngular\airlineTableAngular.html" />
+    <Content Include="sites\airlineTableAngular\airlineTableAngularOne.html" />
+    <Content Include="sites\airlineTableAngular\airlineTableAngularTwo.html" />
     <Content Include="sites\BucharestBusRoutes\BucharestBusRoutes.html" />
     <Content Include="sites\CountriesListInline\CountriesListInline.html" />
     <Content Include="sites\formAngular\formAngularOne.html" />
