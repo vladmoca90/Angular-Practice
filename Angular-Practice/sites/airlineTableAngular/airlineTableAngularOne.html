@@ -2,7 +2,7 @@
 <html lang="en-gb">
 <head>
 
-    <title>Airline Table Angular</title>
+    <title>Airline Table Angular One</title>
 
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
 
@@ -22,14 +22,14 @@
 
     <link rel="stylesheet" href="../../content/airlineTableAngular/airlineTableAngular.css" type="text/css" />
 
-    <script type="text/javascript" src="../../scripts/airlineTableAngular/controller/airlineTableAngularTwoController.js"></script>
+    <script type="text/javascript" src="../../scripts/airlineTableAngular/controller/airlineTableAngularOneController.js"></script>
 
-    <script type="text/javascript" src="../../scripts/airlineTableAngular/airlineTableAngular.js"></script>
+    <script type="text/javascript" src="../../scripts/airlineTableAngular/airlineTableAngularOne.js"></script>
 
 </head>
 <body ng-app="airlineTableApp">
 
-<div role="main" ng-controller="airlineTableCtrl">
+<div role="main" ng-controller="airlineTableOneController">
     <table role="presentation" id="airlineTableBox" ng-class="tableProperties">
         <thead>
             <tr>
@@ -40,11 +40,11 @@
             </tr>
         </thead>
         <tbody>
-            <tr ng-repeat="airlines in airlineList">
-                <td>{{airlines.airlineName}}</td>
-                <td>{{airlines.airlineCountry}}</td>
-                <td>{{airlines.airlineDestinations}}</td>
-                <td>{{airlines.airlineFleet}}</td>
+            <tr ng-repeat="airline in airlines">
+                <td>{{airline.airlineName}}</td>
+                <td>{{airline.airlineCountry}}</td>
+                <td>{{airline.airlineDestinations}}</td>
+                <td>{{airline.airlineFleet}}</td>
             </tr>
         </tbody>
     </table>
