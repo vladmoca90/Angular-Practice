@@ -30,6 +30,24 @@
 </head>
 <body ng-app="airlineTableTwoApp">
 
+    <div ng-controller="airlineTableTwoController" ng-style="tableTwo">
+        <table ng-class="airlineTableTwoStyles">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Country</th>
+                    <th>Destinations</th>
+                </tr>
+            </thead>
+            <tr ng-repeat="airline in airlines">
+                <td>{{airline.airlineName}}</td>
+                <td>{{airline.airlineCountry}}</td>
+                <td>{{airline.airlineDestinations}}</td>
+            </tr>
+        </table>
+    </div>
+
+    <div ng-view></div>
 </body>
 </html>
 
