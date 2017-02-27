@@ -2,7 +2,7 @@
 <html lang="en-gb">
 <head>
 
-    <title>Angular Formular One Practice</title>
+    <title>Formular Angular One Practice</title>
 
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
 
@@ -76,7 +76,7 @@
             <div role="group" ng-class="groupsOfFormsItems">
                 <label for="chooseOption">Choose your area:</label>
                 <select ng-class="formControlClass">
-                    <option role="option" ng-repeat="region in regionsOptions" value="{{region.Id}}" ng-selected="{{ region.Selected == true }}">
+                    <option role="option" ng-repeat="region in regions" value="{{region.Id}}" ng-selected="{{ region.Selected == true }}">
                         {{region.Name}}
                     </option>
                 </select>
