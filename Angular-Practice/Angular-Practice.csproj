@@ -200,8 +200,6 @@
     <Content Include="scripts\CountriesListInline\countriesListInline.js" />
     <Content Include="scripts\formAngular\controller\formAngularOneController.js" />
     <Content Include="scripts\formAngular\formAngularOne.js" />
-    <Content Include="scripts\ngHideShow\ngHideShowApp.js" />
-    <Content Include="scripts\ngHideShow\controller\ngHideShowController.js" />
     <Content Include="scripts\ngStyleAngular\controller\ngStyleController.js" />
     <Content Include="scripts\ngStyleAngular\ngStyleAngular.js" />
     <Content Include="scripts\Pizzas\controllers\pizzasController.js" />
@@ -229,7 +227,6 @@
     <Content Include="sites\BucharestBusRoutes\BucharestBusRoutes.html" />
     <Content Include="sites\CountriesListInline\CountriesListInline.html" />
     <Content Include="sites\formAngular\formAngularOne.html" />
-    <Content Include="sites\ngHideShow\ngHideShow.html" />
     <Content Include="sites\ngStyleAngular\ngStyleAngular.html" />
     <Content Include="sites\Pizzas\Info.txt" />
     <Content Include="sites\Pizzas\Pizzas.html" />
