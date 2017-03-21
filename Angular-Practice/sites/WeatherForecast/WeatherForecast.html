@@ -29,7 +29,7 @@
 </head>
 <body ng-app="WeatherForecastApp">
 
-    <div id="weather" ng-controller="weatherForecastCtrl">
+    <div ng-class="position" ng-style="forecast" ng-controller="weatherForecastCtrl">
         <app-info info="weather"></app-info>
     </div>
 
