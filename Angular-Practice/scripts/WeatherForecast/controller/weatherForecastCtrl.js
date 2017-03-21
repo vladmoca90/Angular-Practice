@@ -6,7 +6,7 @@
         status: "Cloudy",
         temperature: "12 Celsius",
         windSpeed: "25 km/h"
-    }
+    };
 
 }
 
