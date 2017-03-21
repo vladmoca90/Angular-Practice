@@ -149,7 +149,10 @@
     <Content Include="images\studentTableAngular\romania.png" />
     <Content Include="images\studentTableAngular\russia.png" />
     <Content Include="images\studentTableAngular\turkey.png" />
+    <Content Include="images\weatherForecast\LAweather.jpg" />
+    <Content Include="images\weatherForecast\MIAweather.jpg" />
     <Content Include="images\weatherForecast\NYCweather.jpg" />
+    <Content Include="images\weatherForecast\SFweather.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

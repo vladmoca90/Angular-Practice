@@ -4,14 +4,8 @@
         "center-block"
     };
 
-    $scope.forecast = {
-        "width": "300px",
-        "margin": "2% auto",
-        "font-size": "15px"
-    };
-
     $scope.weatherNY = {
-        image: "../../images/NYCweather.jpg",
+        image: "../../../images/NYCweather.jpg",
         location: "New York City",
         status: "Cloudy",
         temperature: "12 Celsius",
@@ -19,7 +13,7 @@
     };
 
     $scope.weatherLA = {
-        image: "../../images/LAweather.jpg",
+        image: "../../../images/LAweather.jpg",
         location: "Los Angeles",
         status: "Sunny",
         temperature: "16 Celsius",
@@ -27,7 +21,7 @@
     };
 
     $scope.weatherSF = {
-        image: "../../images/SFCweather.jpg",
+        image: "../../../images/SFCweather.jpg",
         location: "San Francisco",
         status: "Cloudy",
         temperature: "18 Celsius",
@@ -35,7 +29,7 @@
     };
 
     $scope.weatherMIA = {
-        image: "../../images/MIAweather.jpg",
+        image: "../../../images/MIAweather.jpg",
         location: "Miami",
         status: "Sunny",
         temperature: "24 Celsius",

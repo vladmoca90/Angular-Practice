@@ -1,2 +1,19 @@
-﻿body {
+﻿$maxSize: 100%;
+
+#title,
+#forecast {
+    width: $maxSize;
+}
+#title {
+    height: 100%;
+    max-height: 50px;
+    line-height: 50px;
+    max-width: 500px;
+    margin: 1% auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+#forecast {
+    max-width: 800px;
+    margin: 2% auto;
 }

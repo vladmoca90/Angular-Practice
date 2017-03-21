@@ -29,12 +29,17 @@
 </head>
 <body ng-app="WeatherForecastApp">
 
-    <div ng-class="position" ng-style="forecast" ng-controller="weatherForecastCtrl">
+    <div id="title">
+        <p class="text-center">Weather Forecast in US</p>
+    </div>
+    <div id="forecast" ng-class="position" ng-controller="weatherForecastCtrl">
         <app-info info="weatherNY"></app-info>
         <app-info info="weatherLA"></app-info>
         <app-info info="weatherSF"></app-info>
         <app-info info="weatherMIA"></app-info>
     </div>
+
+    <div ng-view></div>
 
 </body>
 </html>
