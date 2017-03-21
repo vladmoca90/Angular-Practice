@@ -136,6 +136,12 @@
     <Content Include="content\studentTableAngular\studentTableAngular.min.css">
       <DependentUpon>studentTableAngular.css</DependentUpon>
     </Content>
+    <Content Include="content\WeatherForecast\WeatherForecast.css">
+      <DependentUpon>WeatherForecast.scss</DependentUpon>
+    </Content>
+    <Content Include="content\WeatherForecast\WeatherForecast.min.css">
+      <DependentUpon>WeatherForecast.css</DependentUpon>
+    </Content>
     <Content Include="images\studentTableAngular\canada.png" />
     <Content Include="images\studentTableAngular\china.png" />
     <Content Include="images\studentTableAngular\netherlands.png" />
@@ -143,6 +149,7 @@
     <Content Include="images\studentTableAngular\romania.png" />
     <Content Include="images\studentTableAngular\russia.png" />
     <Content Include="images\studentTableAngular\turkey.png" />
+    <Content Include="images\weatherForecast\NYCweather.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -154,6 +161,11 @@
     <Content Include="content\BucharestBusRoutes\BucharestBusRoutes.scss" />
     <Content Include="content\RomanianHighschoolExamResults\RomanianHighschoolExamResults.scss" />
     <Content Include="content\airlineTableAngular\airlineTableAngular.scss" />
+    <Content Include="content\WeatherForecast\WeatherForecast.scss" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -221,6 +233,8 @@
     <Content Include="scripts\USPresidentsRouting\templates\error.html" />
     <Content Include="scripts\USPresidentsRouting\templates\Obama.html" />
     <Content Include="scripts\USPresidentsRouting\templates\Raegan.html" />
+    <Content Include="scripts\WeatherForecast\controller\weatherForecastCtrl.js" />
+    <Content Include="scripts\WeatherForecast\WeatherForecast.js" />
     <Content Include="sites\airlinesAngularRoute\airlinesAngularRoute.html" />
     <Content Include="sites\airlineTableAngular\airlineTableAngularOne.html" />
     <Content Include="sites\airlineTableAngular\airlineTableAngularTwo.html" />
@@ -233,6 +247,7 @@
     <Content Include="sites\RomanianHighschoolExamResults\RomanianHighschoolExamResults.html" />
     <Content Include="sites\studentTableAngular\studentTableAngular.html" />
     <Content Include="sites\USPresidentsRouting\USPresidentsRouting.html" />
+    <Content Include="sites\WeatherForecast\WeatherForecast.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
