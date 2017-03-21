@@ -1,9 +1,5 @@
 ﻿function weatherForecastCtrl($scope) {
 
-    $scope.position = {
-        "center-block"
-    };
-
     $scope.weatherNY = {
         image: "../../../images/NYCweather.jpg",
         location: "New York City",
