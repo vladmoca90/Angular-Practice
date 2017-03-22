@@ -1,19 +1,29 @@
 ﻿$maxSize: 100%;
 
 #title,
-#forecast {
+#forecast,
+ul> li img {
     width: $maxSize;
+}
+#title,
+#forecast {
+    max-width: 500px;
 }
 #title {
     height: 100%;
     max-height: 50px;
     line-height: 50px;
-    max-width: 500px;
     margin: 1% auto;
     font-size: 24px;
     font-weight: bold;
 }
 #forecast {
-    max-width: 800px;
     margin: 2% auto;
+    ul>li {
+        font-size: 16px;
+        text-align: center;
+        img {
+            max-width: 200px;
+        }
+    }
 }
