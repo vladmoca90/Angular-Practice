@@ -17,9 +17,14 @@ ul > li img {
 
 #forecast {
   margin: 2% auto; }
-  #forecast ul > li {
-    font-size: 16px;
-    text-align: center; }
-    #forecast ul > li img {
-      max-width: 200px; }
+  #forecast ul {
+    border: 1px solid #CCC; }
+    #forecast ul li {
+      font-size: 16px;
+      text-align: center;
+      padding-left: 0px;
+      padding-right: 0px; }
+      #forecast ul li img {
+        max-width: 200px;
+        height: 115px; }
 
