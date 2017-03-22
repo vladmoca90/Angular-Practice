@@ -33,10 +33,12 @@
         <p class="text-center">Weather Forecast in US</p>
     </div>
     <div id="forecast" class="center-block" ng-controller="weatherForecastCtrl">
-        <app-info info="weatherNY"></app-info>
-        <app-info info="weatherLA"></app-info>
-        <app-info info="weatherSF"></app-info>
-        <app-info info="weatherMIA"></app-info>
+        <ul class="list-unstyled list-inline" ng-repeat="city in cities">
+            <li>{{city.picture}}</li>
+            <li>{{city.name}}</li>
+            <li>{{city.degrees}}</li>
+            <li>{{city.wind}}</li>
+        </ul>
     </div>
 
     <div ng-view></div>
