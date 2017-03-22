@@ -20,9 +20,9 @@
 
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 
-    <script src="../../scripts/WeatherForecast/controller/weatherForecastCtrl.js"></script>
-
     <link rel="stylesheet" href="../../content/WeatherForecast/WeatherForecast.css" />
+
+    <script src="../../scripts/WeatherForecast/controller/weatherForecastCtrl.js"></script>
 
     <script src="../../scripts/WeatherForecast/WeatherForecast.js"></script>
 
@@ -34,7 +34,7 @@
     </div>
     <div id="forecast" class="center-block" ng-controller="weatherForecastCtrl">
         <ul class="list-unstyled list-inline" ng-repeat="city in cities">
-            <li>{{city.picture}}</li>
+            <li><img ng-src="{{city.picture}}" /></li>
             <li>{{city.name}}</li>
             <li>{{city.degrees}}</li>
             <li>{{city.wind}}</li>
