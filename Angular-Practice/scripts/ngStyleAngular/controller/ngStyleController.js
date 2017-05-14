@@ -5,7 +5,8 @@
     $scope.citiesBackground = {
         "background": "#A1A1A1",
         "color": "#FFFFFF",
-        "font-weight": "bold"
+        "font-weight": "bold",
+        "line-height": "25px"
     }
 
     $scope.tableStyles = {
@@ -23,21 +24,24 @@
     $scope.londonStyle = {
         "font-style": "italic",
         "color": "green",
-        "font-size": "18px"
+        "font-size": "18px",
+        "line-height": "25px"
     }
 
     $scope.newYorkStyle = {
         "color": "orange",
         "font-family": "Verdana",
         "font-size": "15px",
-        "font-weight": "500"
+        "font-weight": "500",
+        "line-height": "25px"
     }
 
     $scope.madridStyle = {
         "color": "purple",
         "letter-spacing": "3px",
         "font-family": "Andalus",
-        "font-size": "20px"
+        "font-size": "20px",
+        "line-height": "25px"
     }
 
 }
