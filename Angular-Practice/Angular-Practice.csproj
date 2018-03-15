@@ -136,6 +136,10 @@
     <Content Include="content\studentTableAngular\studentTableAngular.min.css">
       <DependentUpon>studentTableAngular.css</DependentUpon>
     </Content>
+    <Content Include="content\styles\mixins\mixins.css" />
+    <Content Include="content\styles\mixins\mixins.min.css" />
+    <Content Include="content\styles\utilities\utilities.css" />
+    <Content Include="content\styles\utilities\utilities.min.css" />
     <Content Include="content\WeatherForecast\WeatherForecast.css">
       <DependentUpon>WeatherForecast.scss</DependentUpon>
     </Content>
@@ -169,6 +173,8 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <Content Include="content\styles\utilities\utilities.scss" />
+    <Content Include="content\styles\mixins\mixins.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

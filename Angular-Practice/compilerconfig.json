@@ -2,5 +2,13 @@
   {
     "outputFile": "content/WeatherForecast/WeatherForecast.css",
     "inputFile": "content/WeatherForecast/WeatherForecast.scss"
+  },
+  {
+    "outputFile": "content/styles/mixins/mixins.css",
+    "inputFile": "content/styles/mixins/mixins.scss"
+  },
+  {
+    "outputFile": "content/styles/utilities/utilities.css",
+    "inputFile": "content/styles/utilities/utilities.scss"
   }
 ]
