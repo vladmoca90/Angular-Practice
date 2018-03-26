@@ -1,12 +1,17 @@
-@mixin margin-float-group {
-    margin: auto;
-    float: none;
-}
-
 @mixin overflow-x-y($x, $y) {
     overflow: {
         x: $x;
         y: $y;
+    }
+}
+
+@mixin background($attachment, $image, $position, $repeat, $size) {
+    background: {
+        attachment: $attachment;
+        image: $image;
+        position: $position;
+        repeat: $repeat;
+        size: $size;
     }
 }
 
